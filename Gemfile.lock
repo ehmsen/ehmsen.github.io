@@ -265,7 +265,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  minima (~> 2.5.1)
+  minima
 
 BUNDLED WITH
    2.4.20
