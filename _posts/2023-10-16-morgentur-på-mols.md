@@ -1,9 +1,11 @@
 ---
-layout: post
 title:  "Morgentur på Mols"
-date:   2023-10-16 14:07:00 +0200
-categories: update
+date:   2023-10-16
+tags:
+    - træning
+    - rejse
+published: true
 ---
 
 # Hej med dig
-![Morgentur på Mols](/assets/IMG_8447.jpeg)
+![Morgentur på Mols](/assets/images/IMG_8447.jpeg)
