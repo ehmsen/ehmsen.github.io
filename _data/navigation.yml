@@ -1,6 +1,6 @@
 main:
   - title: "Løb"
-    url: /runs/
+    url: /races/
   - title: "CV"
     url: /cv/
   - title: "Ruter"

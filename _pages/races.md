@@ -1,8 +1,8 @@
 ---
 title: Løb
 layout: collection
-permalink: /runs/
-collection: runs
+permalink: /races/
+collection: races
 show_excerpts: true # true (default), false
 entries_layout: grid
 classes: wide
