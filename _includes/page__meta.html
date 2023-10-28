@@ -36,15 +36,15 @@
           <i class="far {% if include.type == 'grid' %}fa-fw {% endif %}fa-clock" aria-hidden="true"></i>
           {{document.time}}
         </span>
-        {% if document.distance %}
+        {% if document.type %}
           <span class="page__meta-sep"></span>
         {% endif %}
       {% endif %}
 
-      {% if document.distance %}
+      {% if document.type %}
         <span class="page__meta-readtime">
           <i class="far {% if include.type == 'grid' %}fa-fw {% endif %}fa-road" aria-hidden="true"></i>
-          {{document.distance}}
+          {{document.type}}
         </span>
       {% endif %}
     {% endif %}

@@ -10,7 +10,14 @@
             attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
         }).addTo(map);
         var gpx = "{{ include.gpx }}";
-        new L.GPX(gpx, {async: true}).on('loaded', function(e) {
+        new L.GPX(gpx, {
+            async: true,
+            marker_options: {
+                startIconUrl: '/assets/images/pin-icon-start.png',
+                endIconUrl: '/assets/images/pin-icon-end.png',
+                shadowUrl: '/assets/images/pin-shadow.png'
+            }
+        }).on('loaded', function(e) {
             map.fitBounds(e.target.getBounds());
         }).addTo(map);
     });
