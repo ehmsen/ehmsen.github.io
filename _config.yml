@@ -23,8 +23,8 @@ subtitle: Løb for livet!
 name: Martin Rud Ehmsen
 email: martin@ehmsen.org
 description: >- # this means to ignore newlines until "baseurl:"
-  Jeg **elsker** at løbe og jeg forsøger at løbe hver dag.
-  De lange distancer er noget specielt og jeg løber primært marathons.
+  Min passion er **løb**, og hver dag er en ny chance for at finde løbeskoene frem.
+  Det er de lange distancer, der kalder på mig, med marathons som min foretrukne udfordring.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rudning.dk" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  ehmsen
@@ -58,7 +58,7 @@ social:
 author:
   name: "Martin Rud Ehmsen"
   avatar: "/assets/images/mre_square.jpg"
-  bio: "Jeg **elsker** at løbe og jeg forsøger at løbe hver dag. Jeg løber primært lange distancer og primært marathons." # Note: Markdown is allowed
+  bio: "Min passion er **løb**, og hver dag er en ny chance for at finde løbeskoene frem. Det er de lange distancer, der kalder på mig, med marathons som min foretrukne udfordring." # Note: Markdown is allowed
   location: "Odense, Danmark"
   links:
     - label: "Strava"
