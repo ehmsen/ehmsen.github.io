@@ -1,0 +1,19 @@
+[
+
+	{
+		"title":"Carol's Birthday",
+		"start": "2017-3-07",
+		"allDay":true,
+		"url":"/events/carol_bday/"
+	}
+	,
+
+	{
+		"title":"Ray's Birthday",
+		"start": "2017-4-8",
+		"allDay":true,
+		"url":"/events/ray_bday/"
+	}
+	
+
+]

@@ -6,6 +6,4 @@ tags:
     - rejse
 published: true
 ---
-
-# Hej med dig
-![Morgentur på Mols](/assets/images/IMG_8447.jpeg)
+![Morgentur på Mols](/assets/photos/IMG_8447.jpeg)
