@@ -7,4 +7,6 @@ entries_layout: grid
 classes: wide
 ---
 
-{% include gpx.html gpx="/assets/gpx/test.gpx" size="500px" %}
+Her er det planen at jeg vil dele GPX-filer og beskrivelser af de mest interessante ruter jeg har løbet.
+
+<!-- {% include gpx.html gpx="/assets/gpx/test.gpx" size="500px" %} -->

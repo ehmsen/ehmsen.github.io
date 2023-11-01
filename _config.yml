@@ -58,7 +58,9 @@ social:
 author:
   name: "Martin Rud Ehmsen"
   avatar: "/assets/images/mre_square.jpg"
-  bio: "Min passion er **løb**, og hver dag er en ny chance for at finde løbeskoene frem. Det er de lange distancer, der kalder på mig, med marathons som min foretrukne udfordring." # Note: Markdown is allowed
+  bio: >-
+    Min passion er **løb**, og hver dag er en ny chance for at finde løbeskoene frem.
+    Det er de lange distancer, der kalder på mig, med marathons som min foretrukne udfordring.
   location: "Odense, Danmark"
   links:
     - label: "Strava"

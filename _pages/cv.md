@@ -15,7 +15,7 @@ classes: wide
     </tr>
   </thead>
   <tbody>
-{% for race in site.races %}
+{% for race in site.races reversed %}
     <tr>
         <td>{{ race.date | date: "%Y-%m-%d" }}</td>
         <td><a href="{{ race.url }}">{{ race.title }}</a></td>
