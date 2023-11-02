@@ -6,32 +6,32 @@ distance: 42.2
 time: "3:50:18"
 
 gallery:
-  - url: "/assets/photos/2023-04-09/IMG_7418.jpeg"
-    image_path: /assets/photos/2023-04-09/IMG_7418.jpeg
+  - url: "/assets/photos/2023-04-09/IMG_7418.avif"
+    image_path: /assets/photos/2023-04-09/IMG_7418.avif
     alt: "Briefing inden løbet."
     title: "Briefing inden løbet."
-  - url: "/assets/photos/2023-04-09/IMG_7421.jpeg"
-    image_path: /assets/photos/2023-04-09/IMG_7421.jpeg
+  - url: "/assets/photos/2023-04-09/IMG_7421.avif"
+    image_path: /assets/photos/2023-04-09/IMG_7421.avif
     alt: "placeholder image 1"
     title: "Image 1 title caption"
-  - url: "/assets/photos/2023-04-09/IMG_7424.jpeg"
-    image_path: /assets/photos/2023-04-09/IMG_7424.jpeg
+  - url: "/assets/photos/2023-04-09/IMG_7424.avif"
+    image_path: /assets/photos/2023-04-09/IMG_7424.avif
     alt: "placeholder image 1"
     title: "Image 1 title caption"
-  - url: "/assets/photos/2023-04-09/IMG_7431.jpeg"
-    image_path: /assets/photos/2023-04-09/IMG_7431.jpeg
+  - url: "/assets/photos/2023-04-09/IMG_7431.avif"
+    image_path: /assets/photos/2023-04-09/IMG_7431.avif
     alt: "placeholder image 1"
     title: "Image 1 title caption"
-  - url: "/assets/photos/2023-04-09/IMG_7434.jpeg"
-    image_path: /assets/photos/2023-04-09/IMG_7434.jpeg
+  - url: "/assets/photos/2023-04-09/IMG_7434.avif"
+    image_path: /assets/photos/2023-04-09/IMG_7434.avif
     alt: "placeholder image 1"
     title: "Image 1 title caption"
-  - url: "/assets/photos/2023-04-09/IMG_7435.jpeg"
-    image_path: /assets/photos/2023-04-09/IMG_7435.jpeg
+  - url: "/assets/photos/2023-04-09/IMG_7435.avif"
+    image_path: /assets/photos/2023-04-09/IMG_7435.avif
     alt: "placeholder image 1"
     title: "Image 1 title caption"
-  - url: "/assets/photos/2023-04-09/IMG_7437.jpeg"
-    image_path: /assets/photos/2023-04-09/IMG_7437.jpeg
+  - url: "/assets/photos/2023-04-09/IMG_7437.avif"
+    image_path: /assets/photos/2023-04-09/IMG_7437.avif
     alt: "placeholder image 1"
     title: "Image 1 title caption"
 ---

@@ -4,13 +4,14 @@ permalink: /
 classes: wide
 tagline: Løb for livet!
 header:
-    overlay_image: "/assets/photos/header.png"
+    overlay_image: "/assets/photos/header.avif"
     overlay_filter: 0.1 # same as adding an opacity of 0.5 to a black background
     show_overlay_excerpt: true
 ---
 {% for post in site.posts limit:4 %}
   {% include archive-single.html type="grid" %}
 {% endfor %}
+
 <section class="page__content cf" markdown="1">
 Løb er utroligt mange ting. Det er motion, det er naturoplevelser, det er at mærke grænserne og skubbe til dem, det er den indre dialog og bearbejdning af dagen, det er at jagte mål, og 1000 andre ting.
 

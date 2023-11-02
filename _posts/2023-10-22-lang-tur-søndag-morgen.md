@@ -4,8 +4,8 @@ date:   2023-10-22
 tags:
     - træning
 header:
-    teaser: "/assets/photos/2023-10-22/teaser.jpeg"
-    overlay_image: "/assets/photos/2023-10-22/2.jpeg"
+    teaser: "/assets/photos/2023-10-22/teaser.avif"
+    overlay_image: "/assets/photos/2023-10-22/2.avif"
     overlay_filter: 0.4 # same as adding an opacity of 0.5 to a black background
     show_overlay_excerpt: false
 excerpt: "Some excerpt"
@@ -13,12 +13,12 @@ tagline: "Some tagline"
 published: true
 
 gallery:
-  - url: /assets/photos/1.jpeg
-    image_path: /assets/photos/1.jpeg
+  - url: /assets/photos/2023-10-22/1.avif
+    image_path: /assets/photos/2023-10-22/1.avif
     alt: "Solopgang"
     title: "Image 1 title caption"
-  - url: /assets/photos/2.jpeg
-    image_path: /assets/photos/2.jpeg
+  - url: /assets/photos/2023-10-22/2.avif
+    image_path: /assets/photos/2023-10-22/2.avif
     alt: "placeholder image 2"
     title: "Image 2 title caption"
 ---
@@ -31,8 +31,8 @@ Hej med dig
 
 Hep hey
 
-![Hep hey](/assets/photos/IMG_8492.jpeg)
+![Hep hey](/assets/photos/2023-10-22/1.jpeg)
 
 {% include feature_row %}
 
-![Hep hey](/assets/photos/IMG_8493.jpeg)
+![Hep hey](/assets/photos/2023-10-22/2.jpeg)
