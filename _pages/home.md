@@ -13,9 +13,9 @@ header:
 {% endfor %}
 
 <section class="page__content cf" markdown="1">
-Løb er utroligt mange ting. Det er motion, det er naturoplevelser, det er at mærke grænserne og skubbe til dem, det er den indre dialog og bearbejdning af dagen, det er at jagte mål, og 1000 andre ting.
+Løb er utroligt mange ting. Det er motion, det er naturoplevelser, det er at mærke grænserne og skubbe til dem, det er den indre dialog og bearbejde dagen, det er at jagte mål, det er socialt og 1000 andre ting.
 
-Her på min blog deler jeg mine oplevelser og tanker om løb. Ikke så meget fordi jeg tror mine tanker er nye og banebrydende eller fordi jeg tror andre vil finde det utroligt interessant, men mest fordi det er en måde for mig at forstå hvorfor jeg løber.
+Her på min blog deler jeg mine oplevelser og tanker om løb. Ikke så meget fordi mine tanker er nye og banebrydende eller fordi jeg tror andre vil finde det utroligt interessant, men mest fordi det er en måde for mig at forstå løb. 
 
 Mine mål er klare, men de er langt fra den eneste årsage til at jeg løber hver dag:
 - Blive medlem af <a href="https://klub100marathon.dk">Klub 100 Marathon</a>: At løbe 100 officielle marathons, og pt har jeg nået {{ site.races | where: "type", "Marathon" | size }}.
