@@ -7,7 +7,7 @@ tags:
 published: true
 
 header:
-    teaser: "/assets/photos/2023-10-16/4.jpeg"
+    teaser: "/assets/photos/2023-10-16/teaser.jpeg"
     overlay_image: "/assets/photos/2023-10-16/4.jpeg"
     overlay_filter: 0.2 # same as adding an opacity of 0.5 to a black background
     show_overlay_excerpt: false
