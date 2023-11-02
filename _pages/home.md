@@ -1,15 +1,20 @@
 ---
-layout: home
+layout: single
 permalink: /
+classes: wide
 tagline: Løb for livet!
 header:
     overlay_image: "/assets/photos/header.png"
     overlay_filter: 0.1 # same as adding an opacity of 0.5 to a black background
     show_overlay_excerpt: true
 ---
+{% for post in site.posts limit:4 %}
+  {% include archive-single.html type="grid" %}
+{% endfor %}
+<section class="page__content cf" markdown="1">
 Løb er utroligt mange ting. Det er motion, det er naturoplevelser, det er at mærke grænserne og skubbe til dem, det er den indre dialog og bearbejdning af dagen, det er at jagte mål, og 1000 andre ting.
 
-Her på min blog deler jeg mine oplevelser og tanker om løb. Ikke så meget fordi jeg tror mine ranker er nye og banebrydende eller fordi jeg tror andre vil finde det utroligt interessant, men mest fordi det er en måde for mig til at forstå hvorfor jeg løber.
+Her på min blog deler jeg mine oplevelser og tanker om løb. Ikke så meget fordi jeg tror mine tanker er nye og banebrydende eller fordi jeg tror andre vil finde det utroligt interessant, men mest fordi det er en måde for mig at forstå hvorfor jeg løber.
 
 Mine mål er klare, men de er langt fra den eneste årsage til at jeg løber hver dag:
 - Blive medlem af <a href="https://klub100marathon.dk">Klub 100 Marathon</a>: At løbe 100 officielle marathons, og pt har jeg nået {{ site.races | where: "type", "Marathon" | size }}.
@@ -19,3 +24,4 @@ Mine mål er klare, men de er langt fra den eneste årsage til at jeg løber hve
 Gennem denne blog håber jeg at dele min glæde ved løb. Selvom min historie måske ikke er unik, og informationerne kan findes andre steder, vil jeg inviterer dig til at følge med i mine løbeeventyr, udfordringer og triumfer på vejen.
 
 **God læselyst og god løbetur!**
+</section>

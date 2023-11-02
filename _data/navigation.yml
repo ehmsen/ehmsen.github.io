@@ -1,11 +1,11 @@
 main:
+  - title: "Posts"
+    url: /posts/
   - title: "Løb"
     url: /races/
   - title: "CV"
     url: /cv/
   - title: "Ruter"
     url: /routes/
-  - title: "Posts"
-    url: /posts/
   - title: "Tags"
     url: /tags/
