@@ -122,6 +122,7 @@ defaults:
       comments: true
       share: true
       related: true
+      classes: wide
       header:
         teaser: "/assets/photos/default_teaser.avif"
       excerpt_separator: <!--end-excerpt-->
