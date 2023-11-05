@@ -44,6 +44,11 @@ permalink: pretty
 # head_scripts:
 #   - https://cdn.jsdelivr.net/npm/fullcalendar@6.1.9/index.global.min.js
 
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "rudning"
+
 include:
   - "_pages"
   - "_posts"
@@ -117,6 +122,9 @@ defaults:
       comments: true
       share: true
       related: true
+      header:
+        teaser: "/assets/photos/default_teaser.avif"
+      excerpt_separator: <!--end-excerpt-->
   - scope:
       path: ""
       type: races
@@ -129,7 +137,10 @@ defaults:
       comments: true
       share: true
       related: true
+      header:
+        teaser: "/assets/photos/default_teaser.avif"
       classes: wide
+      excerpt_separator: <!--end-excerpt-->
   # _pages
   - scope:
       path: ""
