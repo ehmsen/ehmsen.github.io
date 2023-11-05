@@ -4,6 +4,7 @@ date: 2023-04-09
 type: Marathon
 distance: 42.2
 time: "3:50:18"
+excerpt: Hep hey
 
 gallery:
   - url: "/assets/photos/2023-04-09/IMG_7418.avif"
