@@ -17,4 +17,13 @@ Men som Steen Christesen sagde efter løbet, så var det vist relativt få der l
 
 Så en god første oplevelse, hvor jeg blev klogere og med mod på mere løb.
 
-{% include strava.html id=8657343541 %}
+<div class="side-by-side-container">
+  <div class="side-by-side-item">
+    <iframe width="100%" height="100%" src="/assets/diplomer/2023-03-04.pdf"></iframe>
+  </div>
+  <div class="side-by-side-item">
+    {% include strava.html id=8657343541 %}
+  </div>
+</div>
+
+
