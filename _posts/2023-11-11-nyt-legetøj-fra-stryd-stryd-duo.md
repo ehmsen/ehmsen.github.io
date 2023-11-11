@@ -8,8 +8,8 @@ header:
     overlay_image: "/assets/photos/2023-11-11/header.png"
     overlay_filter: 0.0 # same as adding an opacity of 0.5 to a black background
     show_overlay_excerpt: false
-excerpt: "Some excerpt"
-tagline: "Some tagline"
+excerpt: "Stryd Footpath gør det muligt at visualisere føddernes bevægelse i 3D."
+tagline: "3D visualisering af fodbevægelser"
 published: true
 
 gallery:
