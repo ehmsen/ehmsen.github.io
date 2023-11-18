@@ -15,19 +15,19 @@ published: true
 gallery:
   - url: /assets/photos/2023-11-11/back.png
     image_path: /assets/photos/2023-11-11/back.png
-    title: "Image 1 title caption"
+    title: "Footpath set bagfra."
   - url: /assets/photos/2023-11-11/back_mirror.png
     image_path: /assets/photos/2023-11-11/back.png
-    title: "Image 1 title caption"
+    title: "Footpath set bagfra, hvor venstre og højre fods bevægelse er sammenlignet."
   - url: /assets/photos/2023-11-11/top.png
     image_path: /assets/photos/2023-11-11/top.png
-    title: "Image 1 title caption"
+    title: "Footpath set oppe fra."
   - url: /assets/photos/2023-11-11/top_mirror.png
     image_path: /assets/photos/2023-11-11/top_mirror.png
-    title: "Image 1 title caption"
+    title: "Footpath set oppe fra, hvor venstre og højre fod bevægelse er sammenlignet."
   - url: /assets/photos/2023-11-11/side.png
     image_path: /assets/photos/2023-11-11/side.png
-    title: "Image 1 title caption"
+    title: "Footpath set fra siden."
 ---
 
 Jeg har løbet med <a href="https://www.stryd.com/us/en">Stryd</a> i en del år efterhånden. Stryd er en lille gadget du sætter på dine løbesko, ved at spænde den fast i dine snørebånd, og så må måler den kontinuerligt mens du løber, hvordan du flytter din fod i 3D.
