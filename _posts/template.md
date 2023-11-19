@@ -53,3 +53,12 @@ Hep hey
 {% include feature_row %}
 
 ![Hep hey](/assets/photos/IMG_8493.jpeg)
+
+<div class="side-by-side-container">
+  <div class="side-by-side-item">
+    <iframe width="100%" height="100%" src="/assets/diplomer/2023-03-04.pdf"></iframe>
+  </div>
+  <div class="side-by-side-item">
+    {% include strava.html id=8657343541 %}
+  </div>
+</div>
