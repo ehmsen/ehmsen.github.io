@@ -125,6 +125,9 @@ defaults:
       classes: wide
       header:
         teaser: "/assets/photos/default_teaser.avif"
+        overlay_image: "/assets/photos/header.avif"
+        overlay_filter: 0.0 # same as adding an opacity of 0.5 to a black background
+        show_overlay_excerpt: false
       excerpt_separator: <!--end-excerpt-->
   - scope:
       path: ""
@@ -140,6 +143,9 @@ defaults:
       related: true
       header:
         teaser: "/assets/photos/default_teaser.avif"
+        overlay_image: "/assets/photos/header.avif"
+        overlay_filter: 0.0 # same as adding an opacity of 0.5 to a black background
+        show_overlay_excerpt: false
       classes: wide
       excerpt_separator: <!--end-excerpt-->
   # _pages
