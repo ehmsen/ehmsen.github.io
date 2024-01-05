@@ -24,8 +24,6 @@ Heldigvis blev det opvejet af den altid gode stemning og det gode selskab, som i
 
 Alt i alt en dejlig dag i juleferien og endnu engang tak for et godt løb hos Midtfyn Cannonball!
 
-{% include gallery %}
-
 <div class="side-by-side-container">
   <div class="side-by-side-item">
     <iframe width="100%" height="100%" src="/assets/diplomer/2023-12-28.pdf"></iframe>
