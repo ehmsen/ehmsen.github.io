@@ -16,7 +16,7 @@ tagline: "Marathon i Kerteminde"
 gallery:
   - url: /assets/photos/2024-02-03/2024-02-03 - 1.jpeg
     image_path: /assets/photos/2024-02-03/2024-02-03 - 1.jpeg
-published: false
+published: true
 ---
 
 {% include gallery %}
