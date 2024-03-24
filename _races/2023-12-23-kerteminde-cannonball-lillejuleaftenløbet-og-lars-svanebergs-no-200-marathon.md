@@ -8,25 +8,19 @@ type: Marathon
 distance: 42.2
 time: "3:47:30"
 header:
-    teaser: "/assets/photos/2023-12-23/2023-12-23 - 4.avif"
-    overlay_image: "/assets/photos/2023-12-23/2023-12-23 - overlay.avif"
+    teaser: "4.avif"
+    overlay_image: "overlay.avif"
     overlay_filter: 0.2 # same as adding an opacity of 0.5 to a black background
     show_overlay_excerpt: false
 excerpt: "En perfekt måde at starte juleferien på"
 tagline: "En dejlig dag i Kerteminde med løb og fejring af Lars"
 gallery:
-  - url: /assets/photos/2023-12-23/2023-12-23 - 1.jpeg
-    image_path: /assets/photos/2023-12-23/2023-12-23 - 1.jpeg
-  - url: /assets/photos/2023-12-23/2023-12-23 - 2.jpeg
-    image_path: /assets/photos/2023-12-23/2023-12-23 - 2.jpeg
-  - url: /assets/photos/2023-12-23/2023-12-23 - 3.jpeg
-    image_path: /assets/photos/2023-12-23/2023-12-23 - 3.jpeg
-  - url: /assets/photos/2023-12-23/2023-12-23 - 4.jpeg
-    image_path: /assets/photos/2023-12-23/2023-12-23 - 4.jpeg
-  - url: /assets/photos/2023-12-23/2023-12-23 - 5.jpeg
-    image_path: /assets/photos/2023-12-23/2023-12-23 - 5.jpeg
-  - url: /assets/photos/2023-12-23/2023-12-23 - 6.jpeg
-    image_path: /assets/photos/2023-12-23/2023-12-23 - 6.jpeg
+  - 1.jpeg
+  - 2.jpeg
+  - 3.jpeg
+  - 4.jpeg
+  - 5.jpeg
+  - 6.jpeg
 ---
 
 En dejlig lillejuleaftens-morgen kl 8 var vi mere end 100 der var mødt op ved Kerteminde Kulturhus for at løb Kerteminde Cannonball.
@@ -39,11 +33,11 @@ Et dejligt løb med flot vejr og uden alt for megen vind. Det var kun lige på d
 
 Til slut fik vi taget i mod Lars, da han kom i mål og fejret ham med lækre boller, æbleskiver og masser af snak og hygge og endnu engang en super god tale af Christian Syversen fra Klub100.
 
-{% include gallery %}
+{% include gallery.html %}
 
 <div class="side-by-side-container">
   <div class="side-by-side-item">
-    <iframe width="100%" height="100%" src="/assets/diplomer/2023-12-23.pdf"></iframe>
+    <iframe width="100%" height="100%" src="/assets/posts/{{ page.date | date: '%Y-%m-%d' }}/diplom.pdf"></iframe>
   </div>
   <div class="side-by-side-item">
     {% include strava.html id=10423728359 %}

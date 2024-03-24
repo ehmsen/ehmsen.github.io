@@ -40,6 +40,8 @@ breadcrumbs: false  # disabled by default
 date_format: "%Y-%m-%d"
 words_per_minute: 200
 permalink: pretty
+site.teaser: "/assets/images/default_teaser.avif"
+site.overlay_image: "/assets/images/header.avif"
 
 # head_scripts:
 #   - https://cdn.jsdelivr.net/npm/fullcalendar@6.1.9/index.global.min.js
@@ -124,8 +126,8 @@ defaults:
       related: true
       classes: wide
       header:
-        teaser: "/assets/photos/default_teaser.avif"
-        overlay_image: "/assets/photos/header.avif"
+        teaser: "/assets/images/default_teaser.avif"
+        overlay_image: "/assets/images/header.avif"
         overlay_filter: 0.0 # same as adding an opacity of 0.5 to a black background
         show_overlay_excerpt: false
       excerpt_separator: <!--end-excerpt-->
@@ -142,8 +144,8 @@ defaults:
       share: true
       related: true
       header:
-        teaser: "/assets/photos/default_teaser.avif"
-        overlay_image: "/assets/photos/header.avif"
+        teaser: "/assets/images/default_teaser.avif"
+        overlay_image: "/assets/images/header.avif"
         overlay_filter: 0.0 # same as adding an opacity of 0.5 to a black background
         show_overlay_excerpt: false
       classes: wide

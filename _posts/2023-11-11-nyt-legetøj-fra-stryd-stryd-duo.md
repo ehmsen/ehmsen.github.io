@@ -4,8 +4,8 @@ date: 2023-11-11
 tags:
     - gadgets
 header:
-    teaser: "/assets/photos/2023-11-11/header.png"
-    overlay_image: "/assets/photos/2023-11-11/header.png"
+    teaser: "header.png"
+    overlay_image: "header.png"
     overlay_filter: 0.0 # same as adding an opacity of 0.5 to a black background
     show_overlay_excerpt: false
 excerpt: "Stryd Footpath gør det muligt at visualisere føddernes bevægelse i 3D."

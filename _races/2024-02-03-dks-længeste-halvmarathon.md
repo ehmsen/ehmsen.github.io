@@ -14,16 +14,15 @@ header:
     # show_overlay_excerpt: false
 tagline: "Marathon i Kerteminde"
 gallery:
-  - url: /assets/photos/2024-02-03/2024-02-03 - 1.jpeg
-    image_path: /assets/photos/2024-02-03/2024-02-03 - 1.jpeg
+  - 1.jpeg
 published: true
 ---
 
-{% include gallery %}
+{% include gallery.html %}
 
 <div class="side-by-side-container">
   <div class="side-by-side-item">
-    <iframe width="100%" height="100%" src="/assets/diplomer/2024-02-03.pdf"></iframe>
+    <iframe width="100%" height="100%" src="/assets/posts/{{ page.date | date: '%Y-%m-%d' }}/diplom.pdf"></iframe>
   </div>
   <div class="side-by-side-item">
     {% include strava.html id=10686899656 %}

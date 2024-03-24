@@ -5,31 +5,37 @@ type: Marathon
 distance: 42.2
 time: "3:40:14"
 header:
-    teaser: "/assets/photos/2023-11-04/teaser.avif"
-    overlay_image: "/assets/photos/2023-11-04/5.avif"
+    teaser: "teaser.avif"
+    overlay_image: "5.avif"
     overlay_filter: 0.1 # same as adding an opacity of 0.5 to a black background
     show_overlay_excerpt: false
 excerpt: "Hollufgård Cannonball havde arrangeret et flot efterårs-marathon på stierne i Elmelundskoven"
 tagline: "En dejlig efterårsdag i Elmelundskoven"
 gallery:
-  - url: /assets/photos/2023-11-04/1.jpeg
-    image_path: /assets/photos/2023-11-04/1.avif
-    title: "De første morgenfriske."
-  - url: /assets/photos/2023-11-04/2.jpeg
-    image_path: /assets/photos/2023-11-04/2.avif
-    title: "Den klassiske race briefing."
-  - url: /assets/photos/2023-11-04/3.jpeg
-    image_path: /assets/photos/2023-11-04/3.avif
-    title: "Det er ret køligt, så flere flasher deres Klub 100 Marathon jakker med stjerner."
-  - url: /assets/photos/2023-11-04/4.jpeg
-    image_path: /assets/photos/2023-11-04/4.avif
-    title: "Super flot løbetur med efterårsfarver i Elmelundskoven."
-  - url: /assets/photos/2023-11-04/5.jpeg
-    image_path: /assets/photos/2023-11-04/5.avif
-    title: "Flere flotte efterårsfarver."
-  - url: /assets/photos/2023-11-04/6.mov
-    image_path: /assets/photos/2023-11-04/6.mov
-    title: "Vi mødes flere gange på sløjferne."
+  - 1.jpeg
+  - 2.jpeg
+  - 3.jpeg
+  - 4.jpeg
+  - 5.jpeg
+  - 6.mov
+  # - url: /assets/photos/2023-11-04/1.jpeg
+  #   image_path: /assets/photos/2023-11-04/1.avif
+  #   title: "De første morgenfriske."
+  # - url: /assets/photos/2023-11-04/2.jpeg
+  #   image_path: /assets/photos/2023-11-04/2.avif
+  #   title: "Den klassiske race briefing."
+  # - url: /assets/photos/2023-11-04/3.jpeg
+  #   image_path: /assets/photos/2023-11-04/3.avif
+  #   title: "Det er ret køligt, så flere flasher deres Klub 100 Marathon jakker med stjerner."
+  # - url: /assets/photos/2023-11-04/4.jpeg
+  #   image_path: /assets/photos/2023-11-04/4.avif
+  #   title: "Super flot løbetur med efterårsfarver i Elmelundskoven."
+  # - url: /assets/photos/2023-11-04/5.jpeg
+  #   image_path: /assets/photos/2023-11-04/5.avif
+  #   title: "Flere flotte efterårsfarver."
+  # - url: /assets/photos/2023-11-04/6.mov
+  #   image_path: /assets/photos/2023-11-04/6.mov
+  #   title: "Vi mødes flere gange på sløjferne."
 ---
 Hollufgård Cannonball havde arrangeret et flot efterårs-marathon på stierne i Elmelundskoven.
 
@@ -46,6 +52,6 @@ Danmark bliver ikke flottere end en efteråsdag med gyldne farver i høj solskin
 
 Jeg løb og hyggesnakkede de første par runder, men løb så de sidste to runder selv.
 
-{% include gallery %}
+{% include gallery.html %}
 
 {% include strava.html id=10157719129 %}

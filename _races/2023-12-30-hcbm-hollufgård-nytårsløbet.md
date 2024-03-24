@@ -14,10 +14,8 @@ header:
     show_overlay_excerpt: false
 tagline: "Årets sidste løb"
 gallery:
-  - url: /assets/photos/2023-12-30/2023-12-30 - 1.jpeg
-    image_path: /assets/photos/2023-12-30/2023-12-30 - 1.jpeg
-  - url: /assets/photos/2023-12-30/2023-12-30 - 2.jpeg
-    image_path: /assets/photos/2023-12-30/2023-12-30 - 2.jpeg
+  - 1.jpeg
+  - 2.jpeg
 published: true
 ---
 
@@ -41,11 +39,11 @@ Jeg er bl.a. tilmeld Copenhagen Marathon med forventet sluttid under 3 timer! Nu
 Jeg glæder mig utroligt meget til 2024!
 Godt nytår!
 
-{% include gallery %}
+{% include gallery.html %}
 
 <div class="side-by-side-container">
   <div class="side-by-side-item">
-    <iframe width="100%" height="100%" src="/assets/diplomer/2023-12-30.pdf"></iframe>
+    <iframe width="100%" height="100%" src="/assets/posts/{{ page.date | date: '%Y-%m-%d' }}/diplom.pdf"></iframe>
   </div>
   <div class="side-by-side-item">
     {% include strava.html id=10460868247 %}

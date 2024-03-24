@@ -4,9 +4,9 @@ permalink: /
 classes: wide
 tagline: Løb for livet!
 header:
-    overlay_image: "/assets/photos/header.avif"
+    overlay_image: "/assets/images/header.avif"
     overlay_filter: 0.1 # same as adding an opacity of 0.5 to a black background
-    show_overlay_excerpt: true
+    # show_overlay_excerpt: true
 ---
 {% assign posts = site.posts | concat: site.races | sort: "date" | reverse %}
 {% for post in posts limit:4 %}
