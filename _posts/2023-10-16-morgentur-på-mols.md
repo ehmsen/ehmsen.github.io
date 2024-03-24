@@ -6,8 +6,8 @@ tags:
     - rejse
 published: true
 header:
-    teaser: "/assets/photos/2023-10-16/teaser.avif"
-    overlay_image: "/assets/photos/2023-10-16/4.avif"
+    teaser: "teaser.avif"
+    overlay_image: "4.avif"
     overlay_filter: 0.2 # same as adding an opacity of 0.5 to a black background
     show_overlay_excerpt: false
 excerpt: "En dejlig frisk morgentur syd for Ebeltoft."

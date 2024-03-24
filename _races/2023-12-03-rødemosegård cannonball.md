@@ -5,7 +5,7 @@ type: Marathon
 distance: 42.2
 time: "3:53:04"
 header:
-    teaser: "/assets/photos/2023-12-03/teaser.avif"
+    teaser: "teaser.avif"
     # overlay_image: "/assets/photos/2023-12-03/teaser.avif"
     overlay_filter: 0.1 # same as adding an opacity of 0.5 to a black background
     show_overlay_excerpt: false
@@ -34,7 +34,7 @@ Alt i alt et godt løb i flotte omgivelser!
 
 <div class="side-by-side-container">
   <div class="side-by-side-item">
-    <iframe width="100%" height="100%" src="/assets/diplomer/2023-12-03.pdf"></iframe>
+    <iframe width="100%" height="100%" src="/assets/posts/{{ page.date | date: '%Y-%m-%d' }}/diplom.pdf"></iframe>
   </div>
   <div class="side-by-side-item">
     {% include strava.html id=10321494057 %}

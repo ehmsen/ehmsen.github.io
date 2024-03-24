@@ -8,36 +8,24 @@ distance: 42.2
 time: "3:30:27"
 excerpt: "Marathon-magi i Vejle, med socialt løb og den smukke Ådal som kulisse."
 header:
-    teaser: "/assets/photos/2024-01-14/overlay.jpeg"
-    overlay_image: "/assets/photos/2024-01-14/overlay.jpeg"
+    teaser: "overlay.jpeg"
+    overlay_image: "overlay.jpeg"
     overlay_filter: 0.3 # same as adding an opacity of 0.5 to a black background
     show_overlay_excerpt: false
 tagline: "Glæden ved løb: Morgenmarathon i Vejles naturskønne omgivelser"
 gallery:
-  - url: /assets/photos/2024-01-14/2024-01-14 - 1.jpeg
-    image_path: /assets/photos/2024-01-14/2024-01-14 - 1.jpeg
-  - url: /assets/photos/2024-01-14/2024-01-14 - 2.jpeg
-    image_path: /assets/photos/2024-01-14/2024-01-14 - 2.jpeg
-  - url: /assets/photos/2024-01-14/2024-01-14 - 3.jpeg
-    image_path: /assets/photos/2024-01-14/2024-01-14 - 3.jpeg
-  - url: /assets/photos/2024-01-14/2024-01-14 - 4.jpeg
-    image_path: /assets/photos/2024-01-14/2024-01-14 - 4.jpeg
-  - url: /assets/photos/2024-01-14/2024-01-14 - 5.jpeg
-    image_path: /assets/photos/2024-01-14/2024-01-14 - 5.jpeg
-  - url: /assets/photos/2024-01-14/2024-01-14 - 6.jpeg
-    image_path: /assets/photos/2024-01-14/2024-01-14 - 6.jpeg
-  - url: /assets/photos/2024-01-14/2024-01-14 - 7.jpeg
-    image_path: /assets/photos/2024-01-14/2024-01-14 - 7.jpeg
-  - url: /assets/photos/2024-01-14/2024-01-14 - 8.jpeg
-    image_path: /assets/photos/2024-01-14/2024-01-14 - 8.jpeg
-  - url: /assets/photos/2024-01-14/2024-01-14 - 9.jpeg
-    image_path: /assets/photos/2024-01-14/2024-01-14 - 9.jpeg
-  - url: /assets/photos/2024-01-14/2024-01-14 - 10.jpeg
-    image_path: /assets/photos/2024-01-14/2024-01-14 - 10.jpeg
-  - url: /assets/photos/2024-01-14/2024-01-14 - 11.jpeg
-    image_path: /assets/photos/2024-01-14/2024-01-14 - 11.jpeg
-  - url: /assets/photos/2024-01-14/2024-01-14 - 12.jpeg
-    image_path: /assets/photos/2024-01-14/2024-01-14 - 12.jpeg
+  - 1.jpeg
+  - 2.jpeg
+  - 3.jpeg
+  - 4.jpeg
+  - 5.jpeg
+  - 6.jpeg
+  - 7.jpeg
+  - 8.jpeg
+  - 9.jpeg
+  - 10.jpeg
+  - 11.jpeg
+  - 12.jpeg
 published: true
 ---
 
@@ -65,11 +53,11 @@ I dag bliver det så en spændende dag på Dr. Nielsen's rute. Selvom stien skul
 
 Jeg ser med spænding frem til at udforske ruten og dele min oplevelse her på bloggen. Så følg med når jeg rapporterer tilbage fra Dr. Nielsen's udfordrende terræn!
 
-{% include gallery %}
+{% include gallery.html %}
 
 <div class="side-by-side-container">
   <div class="side-by-side-item">
-    <iframe width="100%" height="100%" src="/assets/diplomer/2024-01-14.pdf"></iframe>
+    <iframe width="100%" height="100%" src="/assets/posts/{{ page.date | date: '%Y-%m-%d' }}/diplom.pdf"></iframe>
   </div>
   <div class="side-by-side-item">
     {% include strava.html id=10556569583 %}

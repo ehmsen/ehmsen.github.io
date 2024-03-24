@@ -4,8 +4,8 @@ date:   2023-10-22
 tags:
     - træning
 header:
-    teaser: "/assets/photos/2023-10-22/teaser.avif"
-    overlay_image: "/assets/photos/2023-10-22/2.avif"
+    teaser: "teaser.avif"
+    overlay_image: "2.avif"
     overlay_filter: 0.4 # same as adding an opacity of 0.5 to a black background
     show_overlay_excerpt: false
 excerpt: "Some excerpt"
