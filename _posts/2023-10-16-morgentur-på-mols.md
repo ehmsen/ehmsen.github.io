@@ -13,18 +13,22 @@ header:
 excerpt: "En dejlig frisk morgentur syd for Ebeltoft."
 tagline: "En dejlig frisk morgentur syd for Ebeltoft"
 gallery:
-  - url: "/assets/photos/2023-10-16/1.jpeg"
-    image_path: /assets/photos/2023-10-16/1.avif
-    title: "Udsigten fra færgelejet på vejen mod Ebeltoft."
-  - url: "/assets/photos/2023-10-16/2.jpeg"
-    image_path: /assets/photos/2023-10-16/2.avif
-    title: "Den klassiske jeg-er-43-og-halvkikset selfie."
-  - url: "/assets/photos/2023-10-16/3.jpeg"
-    image_path: /assets/photos/2023-10-16/3.avif
-    title: "Sommerhuset hvor vi boede."
-  - url: "/assets/photos/2023-10-16/4.jpeg"
-    image_path: /assets/photos/2023-10-16/4.avif
-    title: "Udsigten fra sommerhuset ud over Ebeltoft Vig og Kattegat."
+  - 1.jpeg
+  - 2.jpeg
+  - 3.jpeg
+  - 4.jpeg
+  # - url: "/assets/photos/2023-10-16/1.jpeg"
+  #   image_path: /assets/photos/2023-10-16/1.avif
+  #   title: "Udsigten fra færgelejet på vejen mod Ebeltoft."
+  # - url: "/assets/photos/2023-10-16/2.jpeg"
+  #   image_path: /assets/photos/2023-10-16/2.avif
+  #   title: "Den klassiske jeg-er-43-og-halvkikset selfie."
+  # - url: "/assets/photos/2023-10-16/3.jpeg"
+  #   image_path: /assets/photos/2023-10-16/3.avif
+  #   title: "Sommerhuset hvor vi boede."
+  # - url: "/assets/photos/2023-10-16/4.jpeg"
+  #   image_path: /assets/photos/2023-10-16/4.avif
+  #   title: "Udsigten fra sommerhuset ud over Ebeltoft Vig og Kattegat."
 ---
 Jeg ved ikke om det kommer med alderen eller fordi man har fået børn, eller en kombination, så er det stort set umuligt for mig at sove længe også selvom det er ferie.
 Så jeg åbner typisk omkring samme tid alle dage, dvs. 6:30 - 7:00 uanset omstændighederne ferie eller ej. Så mandag morgen i efterårsferien på Djursland syd for Ebeltoft, var ingen undtagelse.
@@ -39,6 +43,6 @@ Den gik ned til stranden ved Gåsehage og Øerne og tilbage til sommerhuset.
 
 En dejlig start på dagen!
 
-{% include gallery %}
+{% include gallery.html %}
 
 {% include strava.html id=10047456611 %}

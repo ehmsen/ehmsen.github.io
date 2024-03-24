@@ -10,29 +10,30 @@ header:
     show_overlay_excerpt: false
 excerpt: "Some excerpt"
 tagline: "Some tagline"
-published: true
-
+published: false
 gallery:
-  - url: /assets/photos/2023-10-22/1.avif
-    image_path: /assets/photos/2023-10-22/1.avif
-    alt: "Solopgang"
-    title: "Image 1 title caption"
-  - url: /assets/photos/2023-10-22/2.avif
-    image_path: /assets/photos/2023-10-22/2.avif
-    alt: "placeholder image 2"
-    title: "Image 2 title caption"
+  - 1.avif
+  - 2.avif
+  # - url: /assets/photos/2023-10-22/1.avif
+  #   image_path: /assets/photos/2023-10-22/1.avif
+  #   alt: "Solopgang"
+  #   title: "Image 1 title caption"
+  # - url: /assets/photos/2023-10-22/2.avif
+  #   image_path: /assets/photos/2023-10-22/2.avif
+  #   alt: "placeholder image 2"
+  #   title: "Image 2 title caption"
 ---
 
 Hej med dig
 
 {% include strava.html id=10082509344 %}
 
-{% include gallery caption="This is a sample gallery with **Markdown support**." %}
+{% include gallery.html %}
 
 Hep hey
 
-![Hep hey](/assets/photos/2023-10-22/1.jpeg)
+![Hep hey](/assets/posts/2023-10-22/1.jpeg)
 
 {% include feature_row %}
 
-![Hep hey](/assets/photos/2023-10-22/2.jpeg)
+![Hep hey](/assets/posts/2023-10-22/2.jpeg)
