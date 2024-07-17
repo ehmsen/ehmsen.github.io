@@ -32,7 +32,9 @@ gallery:
 published: true
 ---
 
-# {% include gallery.html %}
+<!--
+{% include gallery.html %}
+-->
 
 <div class="side-by-side-container">
   <div class="side-by-side-item">
