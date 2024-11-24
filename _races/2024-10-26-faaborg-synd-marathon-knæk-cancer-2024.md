@@ -16,7 +16,6 @@ tagline: >
     En flot og hurtig dag<br/>
     til et godt formål
 gallery:
-gallery:
     - 1.jpeg
     - 2.jpeg
     - 3.jpeg

@@ -17,7 +17,6 @@ tagline: >
     i selskab med Peter Bang<br/>
     og Michelle Vesterby
 gallery:
-gallery:
     - 1.jpeg
     - 2.jpeg
     - 3.jpeg
