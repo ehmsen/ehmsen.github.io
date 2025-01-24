@@ -20,7 +20,7 @@ Her på min blog deler jeg mine oplevelser og tanker om løb. Ikke så meget for
 
 Mine mål er klare, men de er langt fra den eneste årsage til at jeg løber hver dag:
 - Blive medlem af <a href="https://klub100marathon.dk">Klub 100 Marathon</a>: At løbe 100 officielle marathons. Indtil videre har jeg løbet {{ site.races | where: "type", "Marathon" | size }}.
-- Knække 3-timers-muren: At fuldføre et marathon under 3 timer er en drøm, jeg jagter. Min PR er lige nu {% assign race = site.races | where: "type", "Marathon" | sort: "time" | first %} {{ race.time }}.
+- Knække 3-timers-muren: At fuldføre et marathon under 3 timer. Det mål har jeg allerede opnået med en PR der lige nu er {% assign race = site.races | where: "type", "Marathon" | sort: "time" | first %} {{ race.time }}.
 - At bibeholde glæden ved løb og holde mig fysisk aktiv og i form, så jeg kan løbe 10 km når jeg runder 70 år.
 
 Gennem denne blog håber jeg at dele min glæde ved løb. Selvom min historie måske ikke er unik, og informationerne kan findes andre steder, vil jeg inviterer dig til at følge med i mine løbeeventyr, udfordringer og triumfer på vejen.
