@@ -37,7 +37,7 @@ published: true
 
 {% include gallery.html %}
 
-<iframe src='https://connect.garmin.com/modern/activity/embed/18158512252' width='465' height=548 title='Activity Embed' frameborder="0" />
+<iframe src='https://connect.garmin.com/modern/activity/embed/18158512252' title='Kerteminde Running' width='465' height='500' frameborder='0'></iframe>
 
 <div class="side-by-side-container">
   <div class="side-by-side-item">
