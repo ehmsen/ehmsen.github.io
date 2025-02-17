@@ -20,8 +20,16 @@
 
 <figure class="{{ gallery_layout }} {{ include.class }}">
   {% for img in gallery %}
-    <a href="/assets/posts/{{ page_date }}{{ img | relative_url }}">
-      <img src="/assets/posts/{{ page_date }}{{ img | relative_url }}">
-    </a>
+    {% assign ext = img | split: "." | last %}
+    {% if ext == "mp4" %}
+      <video controls>
+        <source src="/assets/posts/{{ page_date }}{{ img | relative_url }}" type="video/mp4" class="image-popup">
+        Your browser does not support the video tag.
+      </video>
+    {% else %}
+      <a href="/assets/posts/{{ page_date }}{{ img | relative_url }}">
+        <img src="/assets/posts/{{ page_date }}{{ img | relative_url }}">
+      </a>
+    {% endif %}
   {% endfor %}
 </figure>

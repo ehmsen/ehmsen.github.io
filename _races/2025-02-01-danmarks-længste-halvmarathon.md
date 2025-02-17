@@ -31,7 +31,7 @@ gallery:
     - 12.jpeg
     - 13.jpeg
     - 14.jpeg
-    - 15.mov
+    - 15.mp4
 published: true
 ---
 

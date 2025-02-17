@@ -61,6 +61,7 @@ social:
   links:
     - "https://www.strava.com/athletes/27789004"
     - "https://www.linkedin.com/in/martinrehmsen/"
+    - "https://connect.garmin.com/modern/profile/7e4feae0-7af9-4f26-818d-45b4cd624175"
 
 author:
   name: "Martin Rud Ehmsen"
@@ -76,6 +77,9 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/martinrehmsen/"
+    - label: "Garmin"
+      icon: "fa-solid fa-person-running"
+      url: "https://connect.garmin.com/modern/profile/7e4feae0-7af9-4f26-818d-45b4cd624175"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ehmsen"
@@ -88,6 +92,9 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/martinrehmsen/"
+    - label: "Garmin"
+      icon: "fa-solid fa-person-running"
+      url: "https://connect.garmin.com/modern/profile/7e4feae0-7af9-4f26-818d-45b4cd624175"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ehmsen"
