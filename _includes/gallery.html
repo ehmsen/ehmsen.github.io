@@ -22,12 +22,14 @@
   {% for img in gallery %}
     {% assign ext = img | split: "." | last %}
     {% if ext == "mp4" %}
-      <video controls>
-        <source src="/assets/posts/{{ page_date }}{{ img | relative_url }}" type="video/mp4" class="image-popup">
-        Your browser does not support the video tag.
-      </video>
-    {% else %}
-      <a href="/assets/posts/{{ page_date }}{{ img | relative_url }}">
+      <a href="/assets/posts/{{ page_date }}{{ img | relative_url }}" class="my-popup">
+        <video controls>
+          <source src="/assets/posts/{{ page_date }}{{ img | relative_url }}" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </a>
+      {% else %}
+      <a href="/assets/posts/{{ page_date }}{{ img | relative_url }}" class="my-popup">
         <img src="/assets/posts/{{ page_date }}{{ img | relative_url }}">
       </a>
     {% endif %}
