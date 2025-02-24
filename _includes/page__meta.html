@@ -4,7 +4,7 @@
     {% if document.show_date and document.date %}
       {% assign date = document.date %}
       <span class="page__meta-date">
-        <i class="far {% if include.type == 'grid' %}fa-fw {% endif %}fa-calendar-alt" aria-hidden="true"></i>
+        <i class="fa-solid {% if include.type == 'grid' %}fa-fw {% endif %}fa-calendar-alt" aria-hidden="true"></i>
         {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
         <time datetime="{{ date | date_to_xmlschema }}">{{ date | date: date_format }}</time>
       </span>
@@ -17,7 +17,7 @@
       {% assign words = document.content | strip_html | number_of_words %}
 
       <span class="page__meta-readtime">
-        <i class="far {% if include.type == 'grid' %}fa-fw {% endif %}fa-clock" aria-hidden="true"></i>
+        <i class="fa-solid {% if include.type == 'grid' %}fa-fw {% endif %}fa-clock" aria-hidden="true"></i>
         {% if words < words_per_minute %}
           {{ site.data.ui-text[site.locale].less_than | default: "less than" }} 1 {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }}
         {% elsif words == words_per_minute %}
@@ -33,7 +33,7 @@
 
       {% if document.time %}
         <span class="page__meta-readtime">
-          <i class="far {% if include.type == 'grid' %}fa-fw {% endif %}fa-clock" aria-hidden="true"></i>
+          <i class="fa-solid {% if include.type == 'grid' %}fa-fw {% endif %}fa-clock" aria-hidden="true"></i>
           {{document.time}}
         </span>
         {% if document.type %}
@@ -43,7 +43,7 @@
 
       {% if document.type %}
         <span class="page__meta-readtime">
-          <i class="far {% if include.type == 'grid' %}fa-fw {% endif %}fa-road" aria-hidden="true"></i>
+          <i class="fa-solid {% if include.type == 'grid' %}fa-fw {% endif %}fa-road" aria-hidden="true"></i>
           {{document.type}}
         </span>
       {% endif %}
