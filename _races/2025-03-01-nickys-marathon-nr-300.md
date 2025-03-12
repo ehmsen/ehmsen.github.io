@@ -44,10 +44,11 @@ published: true
 
 {% include gallery.html %}
 
+  <iframe src='https://connect.garmin.com/modern/activity/embed/18408033488' width='465' height=548 title='Activity Embed' frameborder="0"></iframe>
 
 <div class="side-by-side-container">
   <div class="side-by-side-item">
-    <iframe src='https://connect.garmin.com/modern/activity/embed/18408033488' width='465' height=548 title='Activity Embed' frameborder="0"></iframe>
+    <iframe width="100%" height="100%" src="/assets/posts/{{ page.date | date: '%Y-%m-%d' }}/diplom.pdf"></iframe>
   </div>
   <div class="side-by-side-item">
     {% include strava.html id=13758204292 %}
