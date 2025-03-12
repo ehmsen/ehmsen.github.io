@@ -36,9 +36,9 @@ gallery:
   - 15.jpeg
   - 16.jpeg
   - 17.jpeg
-  - 18.mov
+  - 18.mp4
   - 19.jpeg
-  - 20.mov
+  - 20.mp4
   - 21.jpeg
   - 22.jpeg
   - 23.jpeg

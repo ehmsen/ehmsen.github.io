@@ -20,15 +20,15 @@ gallery:
     - 1.jpeg
     - 2.jpeg
     - 3.jpeg
-    - 4.mov
+    - 4.mp4
     - 5.jpeg
     - 6.jpeg
     - 7.jpeg
-    - 8.mov
+    - 8.mp4
     - 9.jpeg
     - 10.jpeg
     - 11.jpeg
-    - 12.mov
+    - 12.mp4
     - 13.jpeg
     - 14.jpeg
     - 15.jpeg

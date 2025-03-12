@@ -23,7 +23,7 @@ gallery:
     - 6.jpeg
     - 7.jpeg
     - 8.jpeg
-    - 9.mov
+    - 9.mp4
     - 10.jpeg
     - 11.jpeg
     - 12.jpeg

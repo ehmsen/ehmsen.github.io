@@ -17,7 +17,7 @@ gallery:
   - 3.jpeg
   - 4.jpeg
   - 5.jpeg
-  - 6.mov
+  - 6.mp4
   # - url: /assets/photos/2023-11-04/1.jpeg
   #   image_path: /assets/photos/2023-11-04/1.avif
   #   title: "De første morgenfriske."
@@ -33,8 +33,8 @@ gallery:
   # - url: /assets/photos/2023-11-04/5.jpeg
   #   image_path: /assets/photos/2023-11-04/5.avif
   #   title: "Flere flotte efterårsfarver."
-  # - url: /assets/photos/2023-11-04/6.mov
-  #   image_path: /assets/photos/2023-11-04/6.mov
+  # - url: /assets/photos/2023-11-04/6.mp4
+  #   image_path: /assets/photos/2023-11-04/6.mp4
   #   title: "Vi mødes flere gange på sløjferne."
 ---
 Hollufgård Cannonball havde arrangeret et flot efterårs-marathon på stierne i Elmelundskoven.

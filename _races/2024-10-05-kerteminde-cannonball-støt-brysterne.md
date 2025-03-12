@@ -33,9 +33,9 @@ gallery:
     - 15.jpeg
     - 16.jpeg
     - 17.jpeg
-    - 19.mov
-    - 20.mov
-    - 21.mov
+    - 19.mp4
+    - 20.mp4
+    - 21.mp4
 published: true
 ---
 

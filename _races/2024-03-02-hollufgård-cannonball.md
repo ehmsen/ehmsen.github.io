@@ -18,22 +18,22 @@ tagline: >
 gallery:
   - IMG_5720.jpg
   - IMG_5721.jpg
-  - IMG_5721.mov
+  - IMG_5721.mp4
   - IMG_5722.jpg
   - IMG_5723.jpg
-  - IMG_5723.mov
+  - IMG_5723.mp4
   - IMG_5724.jpg
   - IMG_5725.jpg
   - IMG_5726.jpg
   - IMG_5727.jpg
   - IMG_5728.jpg
   - IMG_5729.jpg
-  - IMG_5729.mov
+  - IMG_5729.mp4
   - IMG_5731.jpg
-  - IMG_5731.mov
+  - IMG_5731.mp4
   - IMG_5732.jpg
   - IMG_5733.jpg
-  - IMG_5733.mov
+  - IMG_5733.mp4
   - IMG_5734.jpg
   - IMG_5735.jpg
   - IMG_5736.jpg
@@ -48,19 +48,19 @@ gallery:
   - IMG_5746.jpg
   - IMG_5747.jpg
   - IMG_5748.jpg
-  - IMG_5748.mov
+  - IMG_5748.mp4
   - IMG_5749.jpg
   - IMG_5750.jpg
   - IMG_5751.jpg
   - IMG_5752.jpg
   - IMG_5753.jpg
   - IMG_5754.jpg
-  - IMG_5754.mov
+  - IMG_5754.mp4
   - IMG_5755.jpg
   - IMG_5756.jpg
   - IMG_5757.jpg
   - IMG_5758.jpg
-  - IMG_5758.mov
+  - IMG_5758.mp4
   - IMG_5759.jpg
   - IMG_5760.jpg
   - IMG_5761.jpg
@@ -69,45 +69,45 @@ gallery:
   - IMG_5764.jpg
   - IMG_5765.jpg
   - IMG_5766.jpg
-  - IMG_5766.mov
+  - IMG_5766.mp4
   - IMG_5767.jpg
   - IMG_5768.jpg
-  - IMG_5768.mov
+  - IMG_5768.mp4
   - IMG_5769.jpg
   - IMG_5771.jpg
-  - IMG_5771.mov
+  - IMG_5771.mp4
   - IMG_5773.jpg
-  - IMG_5773.mov
+  - IMG_5773.mp4
   - IMG_5774.jpg
   - IMG_5775.jpg
-  - IMG_5775.mov
+  - IMG_5775.mp4
   - IMG_5777.jpg
   - IMG_5778.jpg
   - IMG_5779.jpg
   - IMG_5780.jpg
-  - IMG_5780.mov
+  - IMG_5780.mp4
   - IMG_5781.jpg
-  - IMG_5781.mov
+  - IMG_5781.mp4
   - IMG_5782.jpg
   - IMG_5783.jpg
-  - IMG_5783.mov
+  - IMG_5783.mp4
   - IMG_5784.jpg
   - IMG_5785.jpg
   - IMG_5786.jpg
   - IMG_5787.jpg
   - IMG_5788.jpg
   - IMG_5789.jpg
-  - IMG_5789.mov
+  - IMG_5789.mp4
   - IMG_5790.jpg
-  - IMG_5790.mov
+  - IMG_5790.mp4
   - IMG_5791.jpg
   - IMG_5792.jpg
   - IMG_5793.jpg
   - IMG_5794.jpg
-  - IMG_5794.mov
+  - IMG_5794.mp4
   - IMG_5795.jpg
   - IMG_5796.jpg
-  - IMG_5796.mov
+  - IMG_5796.mp4
   - IMG_5797.jpg
   - IMG_5798.jpg
   - IMG_5800.jpg

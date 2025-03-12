@@ -50,9 +50,9 @@ gallery:
     - 29.jpeg
     - 30.jpeg
     - 31.jpeg
-    - 32.mov
+    - 32.mp4
     - 33.jpeg
-    - 34.mov
+    - 34.mp4
     - 35.jpeg
     - 36.jpeg
     - 37.jpeg
@@ -61,7 +61,7 @@ gallery:
     - 40.jpeg
     - 41.jpeg
     - 42.jpeg
-    - 43.mov
+    - 43.mp4
     - 44.jpeg
     - 45.jpeg
     - 46.jpeg
