@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Jekyll Server",
+            "runtimeExecutable": "bash",
+            "runtimeArgs": ["-c", "bundle exec jekyll serve --watch"],
+            // "runtimeArgs": ["-c", "bundle exec jekyll serve --watch --incremental"],
+            "env": {
+                "JEKYLL_ENV": "production"
+            },
+            "console": "integratedTerminal"
+        }
+    ]
+}
