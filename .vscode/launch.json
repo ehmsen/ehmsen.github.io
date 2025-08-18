@@ -11,6 +11,14 @@
                 "JEKYLL_ENV": "production"
             },
             "console": "integratedTerminal"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Convert MOV to MP4",
+            "runtimeExecutable": "bash",
+            "runtimeArgs": ["-c", "cd ${workspaceFolder}/assets/posts && ./convert_mov_to_mp4.sh"],
+            "console": "integratedTerminal"
         }
     ]
 }
