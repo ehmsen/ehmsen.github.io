@@ -19,7 +19,7 @@ Løb er utroligt mange ting. Det er motion, det er naturoplevelser, det er at m�
 Her på min blog deler jeg mine oplevelser og tanker om løb. Ikke så meget fordi mine tanker er nye og banebrydende eller fordi jeg tror andre vil finde det utroligt interessant, men mest fordi det er en måde for mig at forstå løb. 
 
 Mine mål er klare, men de er langt fra den eneste årsage til at jeg løber hver dag:
-- Blive medlem af <a href="https://klub100marathon.dk">Klub 100 Marathon</a>: At løbe 100 officielle marathons. Indtil videre har jeg løbet {{ site.races | where: "type", "Marathon" | size }}.
+- Blive medlem af <a href="https://klub100marathon.dk">Klub 100 Marathon</a>: At løbe 100 officielle marathons. <a href="/cv-marathon/">Indtil videre har jeg løbet {{ site.races | where: "type", "Marathon" | size }}.</a>
 - Knække 3-timers-muren: At fuldføre et marathon under 3 timer. Det mål har jeg allerede opnået med en PR der lige nu er {% assign race = site.races | where: "type", "Marathon" | sort: "time" | first %} {{ race.time }}.
 - At bibeholde glæden ved løb og holde mig fysisk aktiv og i form, så jeg kan løbe 10 km når jeg runder 70 år.
 
