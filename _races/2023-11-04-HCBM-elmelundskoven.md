@@ -1,6 +1,8 @@
 ---
 title: Hollufgård Cannonball Marathon - Elmelundskoven
 date: 2023-11-04
+post_code: 5250
+city: Odense SV
 type: Marathon
 distance: 42.2
 time: "3:40:14"

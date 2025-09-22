@@ -4,6 +4,8 @@ title: >
     Rundtosseløb med et twist<br/>
     New edition
 date:   2025-04-20
+post_code: 8700
+city: Horsens
 type: Marathon
 distance: 42.2
 time: "3:26:28"

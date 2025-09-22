@@ -4,6 +4,8 @@ title: >
     4 på et døgn<br/>
     Kl. 06:00
 date:   2025-06-21
+post_code: 5462
+city: Morud
 type: Marathon
 distance: 42.2
 time: "3:29:19"

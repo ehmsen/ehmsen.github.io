@@ -3,6 +3,8 @@ title: >
     Lisbeth Billedskov<br/>
     Marathon 300
 date:   2024-11-03
+post_code: 5600
+city: Faaborg
 type: Marathon
 distance: 42.2
 time: "3:34:12"

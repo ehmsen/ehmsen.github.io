@@ -3,6 +3,8 @@ title: >
     5800 Cannonball<br/>
     Juleløb
 date:   2024-12-07
+post_code: 5800
+city: Nyborg
 type: Marathon
 distance: 42.2
 time: "3:18:42"

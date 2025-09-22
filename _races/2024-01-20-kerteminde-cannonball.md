@@ -1,6 +1,8 @@
 ---
 title: Kerteminde Cannonball
 date: 2024-01-20
+post_code: 5300
+city: Kerteminde
 type: Marathon
 distance: 42.2
 time: "3:58:57"

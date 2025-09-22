@@ -3,6 +3,8 @@ title: >
     Øhavssti Etape<br/>
     Marathon #3
 date:   2024-06-08
+post_code: 5700
+city: Svendborg
 type: Marathon
 distance: 42.2
 time: "4:24:48"

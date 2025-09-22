@@ -3,6 +3,8 @@ title: >
     Kerteminde Cannonball<br/>
     Lillejuleaftenløbet
 date:   2024-12-23
+post_code: 5300
+city: Kerteminde
 type: Marathon
 distance: 42.2
 time: "3:40:41"

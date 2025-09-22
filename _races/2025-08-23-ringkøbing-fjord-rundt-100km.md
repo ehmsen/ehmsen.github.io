@@ -3,6 +3,8 @@ title: >
     Ringkøbing Fjord Rundt<br/>
     100 km
 date:   2025-08-23
+post_code: 6950
+city: Ringkøbing
 type: Ultra
 distance: 100
 time: "9:19:11"

@@ -3,6 +3,8 @@ title: >
     Skovrider cannonball<br/>
     Christians Marathon nr. 100
 date:   2024-03-23
+post_code: 6200
+city: Aabenraa
 type: Marathon
 distance: 42.2
 time: "3:56:16"

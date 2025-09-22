@@ -4,6 +4,8 @@ title: >
     Lillejuleaftenløbet<br/>
     Lars Svanebergs no 200 marathon
 date: 2023-12-23
+post_code: 5300
+city: Kerteminde
 type: Marathon
 distance: 42.2
 time: "3:47:30"

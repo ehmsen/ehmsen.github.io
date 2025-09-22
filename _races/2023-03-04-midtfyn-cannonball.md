@@ -1,6 +1,8 @@
 ---
 title: Midtfyn Cannonball Kageløbet
 date: 2023-03-04
+post_code: 5792
+city: Årslev
 type: Marathon
 distance: 42.2
 time: "3:31:08"

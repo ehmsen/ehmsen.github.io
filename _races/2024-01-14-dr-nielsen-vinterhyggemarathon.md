@@ -3,6 +3,8 @@ title: >
     Dr. Nielsen<br/>
     Vinterhyggemarathon
 date: 2024-01-14
+post_code: 7100
+city: Vejle
 type: Marathon
 distance: 42.2
 time: "3:30:27"

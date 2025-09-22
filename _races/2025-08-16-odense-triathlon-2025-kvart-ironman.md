@@ -4,6 +4,8 @@ title: >
     Odense Triathlon 2025<br/>
     Lang distance (kvart jernmand)
 date:   2025-08-16
+post_code: 5200
+city: Odense V
 type: Triathlon
 distance: 950 m, 48 km, 10 km
 time: "2:46:51"

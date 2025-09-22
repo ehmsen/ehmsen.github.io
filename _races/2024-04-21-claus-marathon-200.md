@@ -3,6 +3,8 @@ title: >
     Claus<br/>
     Nummer 200
 date:   2024-04-21
+post_code: 8600
+city: Silkeborg
 type: Marathon
 distance: 42.2
 time: "3:55:59"

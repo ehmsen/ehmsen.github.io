@@ -3,6 +3,8 @@ title: >
     Batman Cannonball Marathon<br/>
     Fruens Bøge
 date:   2025-07-16
+post_code: 5000
+city: Odense C
 type: Marathon
 distance: 42.2
 time: "3:44:42"

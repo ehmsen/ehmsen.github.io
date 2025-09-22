@@ -3,6 +3,8 @@ title: >
     Sydfyns Cannonball<br/>
     Smørrebrødsløbet
 date:   2025-03-15
+post_code: 5881
+city: Skårup Fyn
 type: Marathon
 distance: 42.2
 time: "3:15:57"

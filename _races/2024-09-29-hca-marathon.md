@@ -3,6 +3,8 @@ title: >
     HCA Marathon<br/>
     2024
 date:   2024-09-29
+post_code: 5200
+city: Odense V
 type: Marathon
 distance: 42.2
 time: "3:09:03"

@@ -3,6 +3,8 @@ title: >
     5800 Cannonball<br/>
     Skovløbet
 date:   2024-04-14
+post_code: 5800
+city: Nyborg
 type: Marathon
 distance: 42.2
 time: "3:52:57"

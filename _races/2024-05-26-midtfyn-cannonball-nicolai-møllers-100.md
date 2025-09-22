@@ -3,6 +3,8 @@ title: >
     Midtfyn Cannonball<br/>
     Nicolai Møllers #100
 date:   2024-05-26
+post_code: 5792
+city: Årslev
 type: Marathon
 distance: 42.2
 time: "3:44:44"

@@ -4,6 +4,8 @@ title: >
     LXIV<br/>
     Haarby
 date:   2025-02-22
+post_code: 5683
+city: Haarby
 type: Marathon
 distance: 42.2
 time: "3:28:28"

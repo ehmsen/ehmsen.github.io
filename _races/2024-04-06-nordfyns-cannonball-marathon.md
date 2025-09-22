@@ -3,6 +3,8 @@ title: >
     Nordfyns Cannonball Marathon<br/>
     Klub 100 Marathon Danmark
 date:   2024-04-06
+post_code: 5450
+city: Otterup
 type: Marathon
 distance: 42.2
 time: "3:35:58"

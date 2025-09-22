@@ -3,6 +3,8 @@ title: >
     Øhavssti Etape<br/>
     Marathon #1
 date:   2024-04-27
+post_code: 5600
+city: Faaborg
 type: Marathon
 distance: 42.2
 time: "4:34:28"

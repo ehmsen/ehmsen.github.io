@@ -3,6 +3,8 @@ title: >
     Stigeløberne<br/>
     CB Popup
 date:   2024-10-13
+post_code: 5270
+city: Odense N
 type: Marathon
 distance: 42.2
 time: "3:37:27"

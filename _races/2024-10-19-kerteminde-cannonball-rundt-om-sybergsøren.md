@@ -3,6 +3,8 @@ title: >
     Kerteminde Cannonball<br/>
     Rundt om Sybergsøen
 date:   2024-10-19
+post_code: 5300
+city: Kerteminde
 type: Marathon
 distance: 42.2
 time: "3:28:09"

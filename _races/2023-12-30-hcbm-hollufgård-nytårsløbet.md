@@ -3,6 +3,8 @@ title: >
     HCBM - Hollufgård<br/>
     Nytårsløbet
 date: 2023-12-30
+post_code: 5220
+city: Odense SØ
 type: Marathon
 distance: 42.2
 time: "3:52:54"

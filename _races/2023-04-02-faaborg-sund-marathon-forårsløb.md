@@ -1,6 +1,8 @@
 ---
 title: Faaborg Sund Marathon Forårsløb
 date: 2023-04-02
+post_code: 5600
+city: Faaborg
 type: Marathon
 distance: 42.2
 time: "3:31:26"

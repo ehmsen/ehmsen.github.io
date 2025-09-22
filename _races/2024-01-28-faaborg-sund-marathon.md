@@ -1,6 +1,8 @@
 ---
 title: Faaborg Sund Marathon
 date: 2024-01-28
+post_code: 5600
+city: Faaborg
 type: Marathon
 distance: 42.2
 time: "3:24:26"

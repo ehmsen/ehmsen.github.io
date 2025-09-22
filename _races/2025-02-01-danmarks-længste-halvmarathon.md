@@ -3,6 +3,8 @@ title: >
     Kerteminde Motionsklub<br/>
     Danmarks længste halvmarathon
 date:   2025-02-01
+post_code: 5300
+city: Kerteminde
 type: Marathon
 distance: 42.2
 time: "3:13:37"

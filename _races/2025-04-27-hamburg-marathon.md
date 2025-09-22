@@ -3,6 +3,8 @@ title: >
     Haspa Hamburg Marathon<br/>
     2025
 date:   2025-04-27
+post_code: 20357
+city: Hamburg
 type: Marathon
 distance: 42.2
 time: "2:57:32"

@@ -2,6 +2,8 @@
 title: >
     Sydfyns Cannonball
 date:   2024-07-28
+post_code: 5700
+city: Svendborg
 type: Marathon
 distance: 42.2
 time: "3:59:37"

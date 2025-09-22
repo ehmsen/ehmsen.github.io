@@ -3,6 +3,8 @@ title: >
     Kerteminde Cannonball<br/>
     Septemberløbet
 date:   2025-09-06
+post_code: 5300
+city: Kerteminde
 type: Marathon
 distance: 42.2
 time: "3:34:26"

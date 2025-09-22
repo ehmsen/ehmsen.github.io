@@ -3,6 +3,8 @@ title: >
     Faaborg Sund Marathon<br/>
     Knæk Cancer 2024
 date:   2024-10-26
+post_code: 5600
+city: Faaborg
 type: Marathon
 distance: 42.2
 time: "3:20:10"

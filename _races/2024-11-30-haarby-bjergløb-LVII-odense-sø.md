@@ -3,6 +3,8 @@ title: >
     Haarby Bjergløb<br/>
     LVII - Odense SØ
 date:   2024-11-30
+post_code: 5220
+city: Odense SØ
 type: Marathon
 distance: 42.2
 time: "3:29:47"

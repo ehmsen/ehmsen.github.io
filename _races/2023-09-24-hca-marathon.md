@@ -1,6 +1,8 @@
 ---
 title: HCA Marathon
 date: 2023-09-24
+post_code: 5200
+city: Odense V
 type: Marathon
 distance: 42.2
 time: "3:12:39"

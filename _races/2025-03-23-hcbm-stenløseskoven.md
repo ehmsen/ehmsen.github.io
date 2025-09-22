@@ -4,6 +4,8 @@ title: >
     Hollufgård Cannonball Marathon<br/>
     Stenløseskoven
 date:   2025-03-23
+post_code: 5260
+city: Odense S
 type: Marathon
 distance: 42.2
 time: "3:39:30"

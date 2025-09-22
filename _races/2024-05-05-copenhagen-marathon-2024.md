@@ -3,6 +3,8 @@ title: >
     Copenhagen<br/>
     Marathon 2024
 date:   2024-05-05
+post_code: 2100
+city: København
 type: Marathon
 distance: 42.2
 time: "3:11:50"

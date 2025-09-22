@@ -3,10 +3,12 @@ title: >
     Øhavssti Etape<br/>
     Marathon #5
 date:   2024-08-17
+post_code: 5900
+city: Rudkøbning
 type: Marathon
 distance: 42.2
 time: "5:11:17"
-excerpt: "En varm og solrig dag på Thurø med Sydfyns Cannonball."
+excerpt: "En varm og solrig dag i Rudkøbning med Øhavssti Etape 5."
 header:
     teaser: "8.jpeg"
     overlay_image: "8.jpeg"

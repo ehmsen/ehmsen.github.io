@@ -1,6 +1,8 @@
 ---
 title: Kerteminde Cannonball - Fødselsdagsløb 6 år
 date: 2023-11-19
+post_code: 5300
+city: Kerteminde
 type: Marathon
 distance: 42.2
 time: "3:54:59"

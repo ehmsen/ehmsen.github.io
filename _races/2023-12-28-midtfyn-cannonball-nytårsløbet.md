@@ -3,6 +3,8 @@ title: >
     Midtfyn Cannonball<br/>
     Nytårsløbet
 date: 2023-12-28
+post_code: 5792
+city: Årslev
 type: Marathon
 distance: 42.2
 time: "4:01:56"

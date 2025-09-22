@@ -1,6 +1,8 @@
 ---
 title: Rødemosegård Cannonball
 date: 2023-12-03
+post_code: 5474
+city: Veflinge
 type: Marathon
 distance: 42.2
 time: "3:53:04"

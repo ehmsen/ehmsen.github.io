@@ -3,6 +3,8 @@ title: >
     Klub 100<br/>
     Generalforsamlingsløb
 date:   2024-11-16
+post_code: 6230
+city: Rødekro
 type: Marathon
 distance: 42.2
 time: "3:27:58"

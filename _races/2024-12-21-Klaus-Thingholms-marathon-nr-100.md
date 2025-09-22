@@ -3,6 +3,8 @@ title: >
     StigeLøbernes Juleløb<br/>
     Klaus Thingholms marathon nr. 100
 date:   2024-12-21
+post_code: 5270
+city: Odense N
 type: Marathon
 distance: 42.2
 time: "3:14:42"

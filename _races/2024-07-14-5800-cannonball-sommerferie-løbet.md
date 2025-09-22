@@ -3,6 +3,8 @@ title: >
     5800 Cannonball<br/>
      Sommerferie Løbet
 date:   2024-07-14
+post_code: 5800
+city: Nyborg
 type: Marathon
 distance: 42.2
 time: "3:28:49"

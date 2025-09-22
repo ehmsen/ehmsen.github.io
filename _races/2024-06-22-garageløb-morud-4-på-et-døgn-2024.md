@@ -3,6 +3,8 @@ title: >
     Garageløb Morud<br/>
      4 på et døgn 2024 (løb 4)
 date:   2024-06-22
+post_code: 5462
+city: Morud
 type: Marathon
 distance: 42.2
 time: "4:26:24"

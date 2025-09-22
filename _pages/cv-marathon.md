@@ -1,5 +1,6 @@
 ---
-layout: single
+layout: archive
+author_profile: false
 title: Marathon CV
 permalink: /cv-marathon/
 classes: wide
@@ -14,6 +15,8 @@ Mit marathon CV - med i alt {{ marathon_races | size }} marathons.
       <th style="text-align: center">Type</th>
       <th style="text-align: center">Distance</th>
       <th style="text-align: center">Tid</th>
+      <th style="text-align: center">Postnummer</th>
+      <th style="text-align: center">By</th>
     </tr>
   </thead>
   <tbody>
@@ -24,6 +27,8 @@ Mit marathon CV - med i alt {{ marathon_races | size }} marathons.
         <td style="text-align: center">{{ race.type }}</td>
         <td style="text-align: center">{{ race.distance }}</td>
         <td style="text-align: center">{{ race.time }}</td>
+        <td style="text-align: center">{{ race.post_code }}</td>
+        <td style="text-align: center">{{ race.city }}</td>
     </tr>
 {% endfor %}
   </tbody>

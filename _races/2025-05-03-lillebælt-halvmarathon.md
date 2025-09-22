@@ -3,6 +3,8 @@ title: >
     Lillebælt Halvmarathon<br/>
     2025
 date:   2025-05-03
+post_code: 5500
+city: Middelfart
 type: Halvmarathon
 distance: 21.1
 time: "1:57:16"

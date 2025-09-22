@@ -3,6 +3,8 @@ title: >
     Rødemosegård<br/>
     Efterårsløb
 date:   2024-11-24
+post_code: 5274
+city: Veflinge
 type: Marathon
 distance: 42.2
 time: "3:27:30"

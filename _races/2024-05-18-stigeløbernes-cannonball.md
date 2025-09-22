@@ -3,6 +3,8 @@ title: >
     Stigeløbernes Cannonball<br/>
     Nørregaards jubilæumsløb HM100
 date:   2024-05-18
+post_code: 5270
+city: Odense N
 type: Marathon
 distance: 42.2
 time: "3:41:35"

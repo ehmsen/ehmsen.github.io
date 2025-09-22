@@ -1,6 +1,8 @@
 ---
 title: Marathon i Veflinge - Jens Mogensen’s Marathon nr. 300
 date: 2023-06-18
+post_code: 5474
+city: Veflinge
 type: Marathon
 distance: 42.2
 time: "3:55:19"

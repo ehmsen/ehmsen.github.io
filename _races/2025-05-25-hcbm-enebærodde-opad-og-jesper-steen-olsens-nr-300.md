@@ -4,6 +4,8 @@ title: >
     Enebærodde OPAD<br/>
     Jesper Steen Olsens nr. 300
 date:   2025-05-25
+post_code: 5450
+city: Otterup
 type: Marathon
 distance: 42.2
 time: "4:27:47"

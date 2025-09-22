@@ -3,6 +3,8 @@ title: >
     Kerteminde Cannonball<br/>
     Augustløbet
 date:   2025-08-09
+post_code: 5300
+city: Kerteminde
 type: Marathon
 distance: 42.2
 time: "3:38:44"

@@ -3,6 +3,8 @@ title: >
     5800 Cannonball<br/>
     NGIF #3
 date:   2025-06-29
+post_code: 5800
+city: Nyborg
 type: Marathon
 distance: 42.2
 time: "3:25:19"

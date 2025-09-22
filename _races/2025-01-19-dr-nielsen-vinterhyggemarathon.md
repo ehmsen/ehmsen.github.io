@@ -3,6 +3,8 @@ title: >
     Dr. Nielsen<br/>
     Vinterhyggemarathon
 date:   2025-01-19
+post_code: 7100
+city: Vejle
 type: Marathon
 distance: 42.2
 time: "2:58:40"

@@ -3,6 +3,8 @@ title: >
     Kerteminde Cannonball<br/>
     Marts løbet
 date:   2025-03-08
+post_code: 5300
+city: Kerteminde
 type: Marathon
 distance: 42.2
 time: "3:46:38"

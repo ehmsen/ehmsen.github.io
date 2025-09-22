@@ -4,6 +4,8 @@ title: >
     Marathon<br/>
     2025
 date:   2025-05-11
+post_code: 2100
+city: København
 type: Marathon
 distance: 42.2
 time: "3:04:55"

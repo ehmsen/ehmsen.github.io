@@ -3,6 +3,8 @@ title: >
     Midtfyn Cannonball<br/>
     Lets go green løbet
 date:   2024-03-16
+post_code: 5792
+city: Årslev
 type: Marathon
 distance: 42.2
 time: "3:58:19"

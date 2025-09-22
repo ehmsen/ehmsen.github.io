@@ -3,6 +3,8 @@ title: >
     Østengaard<br/>
     GPX Marathon
 date:   2024-07-20
+post_code: 7100
+city: Vejle
 type: Marathon
 distance: 42.2
 time: "4:10:51"

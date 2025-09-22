@@ -3,6 +3,8 @@ title: >
     Hollufgård Cannonball Marathon<br/>
     Hollufgård
 date:   2024-03-02
+post_code: 5220
+city: Odense SØ
 type: Marathon
 distance: 42.2
 time: "3:24:17"

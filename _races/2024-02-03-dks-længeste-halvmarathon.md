@@ -3,6 +3,8 @@ title: >
   Danmarks Længeste Halvmarathon
   Marathon
 date: 2024-02-03
+post_code: 5300
+city: Kerteminde
 type: Marathon
 distance: 42.2
 time: "3:32:20"

@@ -3,6 +3,8 @@ title: >
     Kerteminde Cannonball<br/>
     Støt Brysterne 2024
 date:   2024-10-05
+post_code: 5300
+city: Kerteminde
 type: Marathon
 distance: 42.2
 time: "3:57:27"

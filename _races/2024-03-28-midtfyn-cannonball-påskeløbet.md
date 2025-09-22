@@ -3,6 +3,8 @@ title: >
     Midtfyn Cannonball<br/>
     Påskeløbet
 date:   2024-03-28
+post_code: 5792
+city: Årslev
 type: Marathon
 distance: 42.2
 time: "3:25:34"
