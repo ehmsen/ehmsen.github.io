@@ -19,3 +19,7 @@ gem "webrick", "~> 1.8"
 # # Fix saas deprecation warnings by using older version
 # gem "jekyll-sass-converter", "~> 2.0"
 # gem "webrick", "~> 1.8"
+
+gem "faraday-retry", "~> 2.3"
+
+gem "minimal-mistakes-jekyll"
