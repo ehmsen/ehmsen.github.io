@@ -39,7 +39,7 @@ logo: "/assets/images/Rud Running Logo.svg"
 breadcrumbs: false  # disabled by default
 date_format: "%Y-%m-%d"
 words_per_minute: 200
-permalink: pretty
+permalink: /:categories/:title/
 site.teaser: "/assets/images/default_teaser.avif"
 site.overlay_image: "/assets/images/header.avif"
 
