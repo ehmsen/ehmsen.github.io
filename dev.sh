@@ -11,7 +11,7 @@ EXPORTER="$(dirname "$0")/obsidian-export"
 # 2) start Jekyll
 (
   cd "$DST"
-  bundle exec jekyll serve --livereload
+  bundle exec jekyll serve
 ) &
 
 JEKYLL_PID=$!
