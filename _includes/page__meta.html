@@ -34,7 +34,7 @@
       {% if document.time %}
         <span class="page__meta-readtime">
           <i class="fa-solid {% if include.type == 'grid' %}fa-fw {% endif %}fa-clock" aria-hidden="true"></i>
-          {{document.time}}
+          {{document.time | replace: '-', ':' }}
         </span>
         {% if document.type %}
           <span class="page__meta-sep"></span>
