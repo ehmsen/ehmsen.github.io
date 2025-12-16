@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-SRC="$HOME/Library/Mobile Documents/iCloud~md~obsidian/Documents/Vault/Websites/ehmsen.github.io"
+SRC="$HOME/Obsidian/Vault/Websites/ehmsen.github.io"
 DST="$HOME/Projects/ehmsen.github.io"
 EXPORTER="$(dirname "$0")/obsidian-export"
 
