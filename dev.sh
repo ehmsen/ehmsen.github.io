@@ -5,6 +5,12 @@ SRC="$HOME/Obsidian/Vault/Websites/ehmsen.github.io"
 DST="$HOME/Projects/ehmsen.github.io"
 EXPORTER="$(dirname "$0")/obsidian-export"
 
+# 0) Update destination folder
+(
+  cd "$DST"
+  git pull
+)
+
 # 1) initial export so Jekyll has something to serve
 "$EXPORTER" "$SRC" "$DST"
 
