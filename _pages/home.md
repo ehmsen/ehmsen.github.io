@@ -19,8 +19,11 @@ Løb er utroligt mange ting. Det er motion, det er naturoplevelser, det er at m�
 Her på min blog deler jeg mine oplevelser og tanker om løb. Ikke så meget fordi mine tanker er nye og banebrydende eller fordi jeg tror andre vil finde det utroligt interessant, men mest fordi det er en måde for mig at forstå løb. 
 
 Mine mål er klare, men de er langt fra den eneste årsage til at jeg løber hver dag:
-- Blive medlem af <a href="https://klub100marathon.dk">Klub 100 Marathon</a>: At løbe 100 officielle marathons. <a href="/cv-marathon/">Indtil videre har jeg løbet {{ site.races | where: "type", "Marathon" | size }}.</a>
-- Knække 3-timers-muren: At fuldføre et marathon under 3 timer. Det mål har jeg allerede opnået med en PR der lige nu er {% assign race = site.races | where: "type", "Marathon" | sort: "time" | first %} {{ race.time }}.
+- Blive medlem af <a href="https://klub100marathon.dk">Klub 100 Marathon</a>: At løbe 100 officielle marathons.<br/>
+Et mål jeg nåede 2026-03-08, hvor jeg løb <a href="races/2026-03-08-stigeløbernes-CB-31-martin-rud-ehmsen-100-MT-jubilæumløb">mit marathon #100 hos Stigeløberne</a>.<br/>
+<a href="/cv-marathon/">Total set har jeg løbet {{ site.races | where: "type", "Marathon" | size }} marathons.</a>
+- Knække 3-timers-muren: At fuldføre et marathon under 3 timer.<br/>
+Det mål har jeg allerede opnået med en PR der lige nu er {% assign race = site.races | where: "type", "Marathon" | sort: "time" | first %} {{ race.time }}.
 - At bibeholde glæden ved løb og holde mig fysisk aktiv og i form, så jeg kan løbe 10 km når jeg runder 70 år.
 
 Gennem denne blog håber jeg at dele min glæde ved løb. Selvom min historie måske ikke er unik, og informationerne kan findes andre steder, vil jeg inviterer dig til at følge med i mine løbeeventyr, udfordringer og triumfer på vejen.
