@@ -21,7 +21,7 @@ classes: wide
         <td><a href="{{ race.url }}">{{ race.title }}</a></td>
         <td style="text-align: center">{{ race.type }}</td>
         <td style="text-align: center">{{ race.distance }}</td>
-        <td style="text-align: center">{{ race.time }}</td>
+        <td style="text-align: center">{{ race.time | replace: '-', ':' }}</td>
     </tr>
 {% endfor %}
   </tbody>
