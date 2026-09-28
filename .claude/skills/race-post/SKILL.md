@@ -209,7 +209,7 @@ Strava.
 Preview locally, and open the page in the browser pane:
 
 ```bash
-source /opt/homebrew/opt/chruby/share/chruby/chruby.sh && chruby ruby-3.2
+export PATH=/opt/homebrew/bin:$PATH   # Homebrew Ruby 4; gems in vendor/bundle
 bundle exec jekyll serve     # http://localhost:4000/races/<DATE>-<slug>/
 ```
 
