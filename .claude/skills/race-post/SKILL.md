@@ -97,11 +97,21 @@ A diploma can be a photo (JPEG). Copy it as `diplom.jpeg` and show it with
 Photos come from a Photos album named after the race, and from the folder.
 Export the album, then number everything into the race's asset folder:
 
+Your Bash tool cannot read the Photos library, and his terminal can. So make
+`$TMP` with Bash, and run the export with `run_in_terminal`, as one line:
+
 ```bash
-TMP=$(mktemp -d)
-~/.local/bin/osxphotos export "$TMP" --album "$ALBUM" --convert-to-jpeg --jpeg-ext jpeg \
-  --skip-original-if-edited --skip-live --filename "{album_seq:04d(1)}"
-.claude/skills/race-post/media.sh assets/posts/$DATE [FOLDER] "$TMP"
+osxphotos export "$TMP" --album "$ALBUM" --directory "{folder_album}" --filename "{album_seq:04d(1)}" --convert-to-jpeg --jpeg-ext jpeg --skip-original-if-edited --skip-live --download-missing
+```
+
+`osxphotos albums` lists the albums, with a count for each. Pass it the exact
+name. `{album_seq}` only works together with `--directory "{folder_album}"`.
+A photo that is also in other albums lands in those albums' folders too, so pass
+only `$TMP/$ALBUM` on. `--download-missing` fetches originals from iCloud, and
+that can take minutes. Then, back in Bash:
+
+```bash
+.claude/skills/race-post/media.sh assets/posts/$DATE [FOLDER] "$TMP/$ALBUM"
 ```
 
 `media.sh` continues after the highest number already in the folder. It
@@ -110,7 +120,7 @@ converts to JPEG at 1280 px, the same as Photos' "Large" export, and turns
 lines and the PDFs it copied. `diplom*.pdf` shows as the diploma. Every other
 PDF goes in the "Dokumenter" list.
 
-If osxphotos cannot read the library, the terminal needs Full Disk Access. That
+If osxphotos cannot read the library even in his terminal, it needs Full Disk Access. That
 is his setting to change, not yours. Until then he exports by hand from Photos:
 JPEG, Large size, sequential filenames, into a folder. You pass that folder
 instead of `$TMP`.
