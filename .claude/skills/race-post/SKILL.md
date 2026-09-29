@@ -129,6 +129,10 @@ No photos is fine. The post then has no `header:` and no `gallery:`, and the
 site's default teaser is used.
 
 Ask him which photo is the teaser. Show a few candidates with the Read tool.
+The header crops the photo to a wide strip and keeps its vertical middle by
+default. If the subject sits higher or lower, set `overlay_position:` under
+`header:`, for example `"center 20%"`. Check the preview in a wide window
+(1600 px) and in a narrow one (900 px).
 
 **Files over 50 MB.** GitHub refuses files over 100 MB outside LFS. Track each
 one by its exact path, never by extension:
@@ -171,6 +175,7 @@ excerpt: "..."
 header:
     teaser: "N.jpeg"
     overlay_image: "N.jpeg"
+    overlay_position: "center 50%" # optional; move the crop to the subject
     overlay_filter: 0.3 # same as adding an opacity of 0.5 to a black background
     show_overlay_excerpt: true # Show tagline
 tagline: >

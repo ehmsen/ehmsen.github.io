@@ -12,6 +12,7 @@ excerpt: "Under 3 timer i Boston. De rullende bakker og Heartbreak Hill smadrede
 header:
     teaser: "3.jpeg"
     overlay_image: "3.jpeg"
+    overlay_position: "center 20%" # where the face is; the header crops the photo
     overlay_filter: 0.3 # same as adding an opacity of 0.5 to a black background
     show_overlay_excerpt: true # Show tagline
 tagline: >
