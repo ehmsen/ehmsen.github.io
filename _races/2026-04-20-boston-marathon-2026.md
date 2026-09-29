@@ -173,6 +173,6 @@ Det største øjeblik var ved start på hovedgaden i Hopkinton. Jeg stod i wave 
     <iframe width="100%" height="100%" src="/assets/posts/{{ page.date | date: '%Y-%m-%d' }}/diplom.pdf"></iframe>
   </div>
   <div class="side-by-side-item">
-    {% include strava.html id=18188076863 %}
+    {% include strava.html id=18188076863 token="_yf5FR35xyUfvp8LrHj39t05YBqGkOKvqDRtv2eMbHc" %}
   </div>
 </div>

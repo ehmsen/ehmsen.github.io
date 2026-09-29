@@ -47,7 +47,9 @@ For a triathlon, use the `multi_sport` file for the embed. Its sibling files
 the same day are the legs. If the data has no activity for the date, ask him
 for the Garmin link.
 
-**Strava.** Always ask for the Strava link or ID. Keep only the number.
+**Strava.** Always ask for the embed code: on the activity, Share → Embed. Keep
+`data-embed-id` and `data-token`. Since April 2026 an embed without the token
+shows "This content is unavailable" (error EEE). Older activities work without it.
 
 **Place.** Turn the start point into a postal code and a city. Confirm them with him:
 
@@ -211,7 +213,7 @@ published: true
     <iframe width="100%" height="100%" src="/assets/posts/{{ page.date | date: '%Y-%m-%d' }}/diplom.pdf"></iframe>
   </div>
   <div class="side-by-side-item">
-    {% include strava.html id=<STRAVA_ID> %}
+    {% include strava.html id=<STRAVA_ID> token="<STRAVA_TOKEN>" %}
   </div>
 </div>
 ```
