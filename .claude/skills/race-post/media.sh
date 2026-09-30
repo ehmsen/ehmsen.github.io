@@ -2,9 +2,10 @@
 # Usage: media.sh DEST SRC...
 # Numbers photos and videos from each SRC folder into DEST, continuing after the
 # highest number already in DEST, and prints the new gallery lines. Photos become
-# JPEG, at most 1280 px on the long edge (Photos' "Large"). .mov goes through
-# assets/posts/convert_mov_to_mp4.sh, run inside DEST only. PDFs are copied with a
-# slugged name and printed as "pdf: <name>". Sources are never changed.
+# JPEG, at most 1280 px on the long edge (Photos' "Large"). .mov, and .mp4 over
+# 25 MB, go through assets/posts/convert_mov_to_mp4.sh, run inside DEST only.
+# PDFs are copied with a slugged name and printed as "pdf: <name>". Sources are
+# never changed.
 set -euo pipefail
 
 dest=$1; shift
@@ -32,7 +33,10 @@ for src in "$@"; do
         n=$((n + 1)); cp "$f" "$dest/$n.mov"; movs=1
         echo "    - $n.mp4" ;;
       mp4)
-        n=$((n + 1)); cp "$f" "$dest/$n.mp4"
+        # Over 25 MB goes through HandBrake too: named .mov, the script picks it up.
+        n=$((n + 1))
+        if (( $(stat -f %z "$f") > 25 * 1024 * 1024 )); then cp "$f" "$dest/$n.mov"; movs=1
+        else cp "$f" "$dest/$n.mp4"; fi
         echo "    - $n.mp4" ;;
       pdf)
         slug=$(printf '%s' "$name" | tr '[:upper:]' '[:lower:]' | tr ' \302\240' '---' | tr -s '-')

@@ -106,7 +106,10 @@ Your Bash tool cannot read the Photos library, and his terminal can. So make
 osxphotos export "$TMP" --album "$ALBUM" --directory "{folder_album}" --filename "{album_seq:04d(1)}" --convert-to-jpeg --jpeg-ext jpeg --skip-original-if-edited --skip-live --download-missing
 ```
 
-`osxphotos albums` lists the albums, with a count for each. Pass it the exact
+`run_in_terminal` refuses non-ASCII text, so a name like "København" cannot go
+on the command line. Write the command to a script in the scratchpad with Bash,
+and run `zsh <script>` in the terminal. `osxphotos albums` lists the albums,
+with a count for each. Pass it the exact
 name. `{album_seq}` only works together with `--directory "{folder_album}"`.
 A photo that is also in other albums lands in those albums' folders too, so pass
 only `$TMP/$ALBUM` on. `--download-missing` fetches originals from iCloud, and
