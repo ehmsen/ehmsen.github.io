@@ -53,14 +53,22 @@ Garmin multisport embed side by side instead. For every other race, always ask f
 `data-embed-id` and `data-token`. Since April 2026 an embed without the token
 shows "This content is unavailable" (error EEE). Older activities work without it.
 
-**Place.** Turn the start point into a postal code and a city. Confirm them with him:
+**Place.** Most venues come back, so first look for an earlier post from the
+same organiser or place, and reuse its `post_code:` and `city:`:
 
 ```bash
-curl -s "https://api.dataforsyningen.dk/postnumre/reverse?x=$LON&y=$LAT" | python3 -c "import json,sys; d=json.load(sys.stdin); print(d['nr'], d['navn'])"
+grep -l -i "$PLACE" _races/*.md | xargs grep -h '^post_code:\|^city:' | sort | uniq -c
 ```
 
-Outside Denmark the call fails. Leave `post_code:` empty and write `city:` like
-`Boston, MA`.
+For a new venue, turn the Garmin start point into a place with OpenStreetMap.
+DAWA closed in 2026. OSM's postal codes can be wrong (it gives 5000 for Stige,
+which is 5270), so always confirm with him:
+
+```bash
+curl -s -A 'rudning.dk race-post' "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=$LAT&lon=$LON&zoom=16" | python3 -c "import json,sys; a=json.load(sys.stdin)['address']; print(a.get('postcode'), a.get('city') or a.get('town') or a.get('village'), a.get('suburb'))"
+```
+
+Outside Denmark, leave `post_code:` empty and write `city:` like `Boston, MA`.
 
 **Type and distance.** `type:` is one of `Marathon`, `Halvmarathon`, `Ultra`,
 `Triathlon`. `distance:` is in km (`42.2`, `21.1`, `50.0`). For a triathlon,
