@@ -47,7 +47,9 @@ For a triathlon, use the `multi_sport` file for the embed. Its sibling files
 the same day are the legs. If the data has no activity for the date, ask him
 for the Garmin link.
 
-**Strava.** Always ask for the embed code: on the activity, Share → Embed. Keep
+**Strava.** Skip it for a triathlon: Strava splits a multisport race into
+separate activities, so there is nothing to embed. Put the diploma and the
+Garmin multisport embed side by side instead. For every other race, always ask for the embed code: on the activity, Share → Embed. Keep
 `data-embed-id` and `data-token`. Since April 2026 an embed without the token
 shows "This content is unavailable" (error EEE). Older activities work without it.
 
@@ -73,18 +75,11 @@ show the candidates and let him pick:
 find ~/Downloads -maxdepth 1 -iname '*.pdf' -newermt $DATE -print0 | xargs -0 ls -t | head -5
 ```
 
-Also check the folder for `diplom*.pdf`. Read the text with PDFKit. Nothing else
-reads PDFs on this Mac. Keep `</dev/null`:
+Also check the folder for `diplom*.pdf`. Read the text with PDFKit, because
+nothing else reads PDFs on this Mac. Keep `</dev/null`:
 
 ```bash
-cat > /tmp/pdftext.js <<'EOF'
-ObjC.import('PDFKit');
-function run(argv) {
-  const d = $.PDFDocument.alloc.initWithURL($.NSURL.fileURLWithPath(argv[0]));
-  return (!d || d.isNil()) ? "UNREADABLE" : ObjC.unwrap(d.string);
-}
-EOF
-osascript -l JavaScript /tmp/pdftext.js "$PDF" </dev/null
+osascript -l JavaScript .claude/skills/race-post/pdftext.js "$PDF" </dev/null
 ```
 
 Take the official time from it. For a triathlon, also take the splits and
@@ -100,7 +95,9 @@ Photos come from a Photos album named after the race, and from the folder.
 Export the album, then number everything into the race's asset folder:
 
 Your Bash tool cannot read the Photos library, and his terminal can. So make
-`$TMP` with Bash, and run the export with `run_in_terminal`, as one line:
+a **new, empty** `$TMP` with Bash for every export (`mktemp -d`). If an earlier
+export left its database there, osxphotos waits for a y/N answer you cannot
+see, and the export looks hung. Run the export with `run_in_terminal`, as one line:
 
 ```bash
 osxphotos export "$TMP" --album "$ALBUM" --directory "{folder_album}" --filename "{album_seq:04d(1)}" --convert-to-jpeg --jpeg-ext jpeg --skip-original-if-edited --skip-live --download-missing
@@ -137,7 +134,8 @@ Ask him which photo is the teaser. Show a few candidates with the Read tool.
 The header crops the photo to a wide strip and keeps its vertical middle by
 default. If the subject sits higher or lower, set `overlay_position:` under
 `header:`, for example `"center 20%"`. Check the preview in a wide window
-(1600 px) and in a narrow one (900 px).
+(1600 px) and in a narrow one (900 px). A portrait photo is cropped much
+harder than a landscape one, so prefer landscape for the teaser.
 
 **Files over 50 MB.** GitHub refuses files over 100 MB outside LFS. Track each
 one by its exact path, never by extension:
