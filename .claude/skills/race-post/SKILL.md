@@ -145,7 +145,11 @@ instead of `$TMP`.
 No photos is fine. The post then has no `header:` and no `gallery:`, and the
 site's default teaser is used.
 
-Ask him which photo is the teaser. Show a few candidates with the Read tool.
+Ask him which photo is the teaser. Show him every photo with its number on a
+contact sheet: write an `index.html` in the scratchpad whose thumbnails point at
+`http://127.0.0.1:4000/assets/posts/$DATE/N.jpeg`, and serve it with
+`python3 -m http.server 4001 --directory <that folder>` in a terminal tab. A
+sheet injected into the browser pane disappears whenever the pane reloads.
 The header crops the photo to a wide strip and keeps its vertical middle by
 default. If the subject sits higher or lower, set `overlay_position:` under
 `header:`, for example `"center 20%"`. Check the preview in a wide window
