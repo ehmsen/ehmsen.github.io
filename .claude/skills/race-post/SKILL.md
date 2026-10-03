@@ -94,7 +94,14 @@ Take the official time from it. For a triathlon, also take the splits and
 places. Compare them with Garmin, and say it if they differ by more than a
 minute. The diploma's time is the one that goes on the CV.
 
-A diploma can be a photo (JPEG). Copy it as `diplom.jpeg` and show it with
+A diploma PDF shared by all runners, one page each: keep only his page.
+
+```bash
+osascript -l JavaScript .claude/skills/race-post/pdfpage.js IN.pdf Ehmsen assets/posts/$DATE/diplom.pdf </dev/null
+```
+
+No diploma? A screenshot of the official result works as one, and a link to
+the results page goes in the "Dokumenter" list. A diploma can be a photo (JPEG). Copy it as `diplom.jpeg` and show it with
 `<img>` where the iframe would be. Do not number it as a gallery photo.
 
 ## 4. Media
