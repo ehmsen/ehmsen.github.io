@@ -15,11 +15,17 @@ mkdir -p "$dest"
 n=$(find "$dest" -maxdepth 1 -type f | sed -nE 's|.*/([0-9]+)\.[^./]+$|\1|p' | sort -n | tail -1)
 n=${n:-0}
 movs=0
+# Checksums of what DEST holds, so a file met twice (album and folder, or a
+# rerun) is copied once. Only exact copies match; converted files do not.
+seen=$(find "$dest" -maxdepth 1 -type f ! -name '.*' -exec md5 -q {} \;)
 
 for src in "$@"; do
   while IFS= read -r -d '' f; do
     name=$(basename "$f")
     ext=$(printf '%s' "${name##*.}" | tr '[:upper:]' '[:lower:]')
+    h=$(md5 -q "$f")
+    if grep -qx "$h" <<<"$seen"; then echo "duplicate: $f" >&2; continue; fi
+    seen+=$'\n'$h
     case $ext in
       jpg|jpeg|heic|png)
         n=$((n + 1)); out="$dest/$n.jpeg"

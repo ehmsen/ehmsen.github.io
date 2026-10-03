@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Self-check for media.sh: numbering continues, order is numeric, big photos
-# shrink, PNG becomes JPEG, PDFs are slugged, dotfiles are ignored.
+# shrink, PNG becomes JPEG, PDFs are slugged, dotfiles and exact duplicates
+# are ignored.
 set -euo pipefail
 here=$(cd "$(dirname "$0")" && pwd)
 t=$(mktemp -d); trap 'rm -rf "$t"' EXIT
@@ -12,8 +13,9 @@ sips -Z 2000 "$sample" --out "$t/src/10.jpeg" >/dev/null
 sips -s format png "$sample" --out "$t/src/2.png" >/dev/null
 echo x > "$t/src/.DS_Store"
 echo x > "$t/src/Boston Program 2026.pdf"
+cp "$sample" "$t/src/11.jpeg"   # identical to dest/1.jpeg: skipped
 
-out=$("$here/media.sh" "$t/dest" "$t/src")
+out=$("$here/media.sh" "$t/dest" "$t/src" 2>/dev/null)
 expected=$'    - 3.jpeg\n    - 4.jpeg\npdf: boston-program-2026.pdf'
 [[ $out == "$expected" ]] || { echo "FAIL output:"; echo "$out"; exit 1; }
 w=$(sips -g pixelWidth -g pixelHeight "$t/dest/4.jpeg" | awk '/pixel/ {print $2}' | sort -n | tail -1)
