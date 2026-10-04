@@ -5,6 +5,8 @@ main:
     url: /races/
   - title: "CV"
     url: /cv/
+  - title: "Plan"
+    url: /training-plan/
   - title: "Ruter"
     url: /routes/
   - title: "Tags"
