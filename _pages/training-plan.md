@@ -31,21 +31,21 @@ details.tp summary{cursor:pointer;font-weight:bold}
 .tp-day dd{margin:0}
 </style>
 
-<span class="tp-snap">A snapshot of my plan on 2026-11-02 — I don't update this page as the plan changes</span>
+<span class="tp-snap">A snapshot of my plan on 2026-11-07 — I don't update this page as the plan changes</span>
 
 <div class="tp-hero">
   <h2>Fionia Long Distance — 5 September 2027</h2>
   <p>Full-distance triathlon: 3.8 km swim from Nyborg, 180 km bike to Odense, 42.2 km run in Odense. My one A-race this season.</p>
   <p>Goal: <span class="tp-goal">sub-10:00</span> &nbsp;·&nbsp; training aim: <b>9:50</b></p>
-  <p><b>307 days (44 weeks) to go</b> on 2 November 2026.</p>
+  <p><b>302 days (43 weeks) to go</b> on 7 November 2026.</p>
   <div class="tp-legs">
-    <div>Swim<b>1:25</b><small>2:14/100 m</small></div>
+    <div>Swim<b>1:15</b><small>1:58/100 m</small></div>
     <div>T1<b>4:00</b><small>&nbsp;</small></div>
-    <div>Bike<b>5:20</b><small>180 km</small></div>
+    <div>Bike<b>5:14</b><small>180 km</small></div>
     <div>T2<b>2:00</b><small>&nbsp;</small></div>
     <div>Run<b>3:15</b><small>4:37/km</small></div>
   </div>
-  <p><small>I train for 9:50 so that sub-10 doesn't depend on luck on the day. My leg targets add up to 10:06 today, 16 minutes over the aim. Against the rates of improvement I plan for, it is closer to 20 minutes. After a 3.8 km pool swim on 5 November, I re-cut all five targets so they add up to 9:50 or less. That re-cut is due by 8 November and is not done yet.</small></p>
+  <p><small>I train for 9:50 so that sub-10 doesn't depend on luck on the day. After a 3.8 km pool swim on 5 November, I re-cut my leg targets on 7 November. They now add up to 9:50: the swim went from 1:25 to 1:15 and the bike from 5:20 to 5:14. If every rate of improvement I plan for arrives in full, I reach about 9:51. The 5:14 bike needs a faster aero position than I have today; without it, I am about 9:58.</small></p>
 </div>
 
 ## Season timeline
@@ -82,7 +82,7 @@ My season is 13 blocks, from 1 September 2026 to race day. Blocks 1 and 2 are do
 <tbody>
 <tr><td>2026-09-01 → 10-04</td><td><b>Baselines</b> (B1)</td><td>Measure the swim at race distance</td><td>Start the bike endurance test series; bike threshold test</td></tr>
 <tr><td>2026-10-05 → 2027-01-24</td><td><b>Limiter development</b> (B2–B5)</td><td>Swim: more swimming, technique, and holding pace over distance</td><td>Bike base indoors, with threshold work from block 3</td></tr>
-<tr><td>2027-01-25 → 04-18</td><td><b>Bike threshold build</b> (B6–B8)</td><td>Raise my bike threshold and how long I can hold it</td><td>Hold the swim gains; build my run toward a fast Copenhagen Marathon</td></tr>
+<tr><td>2027-01-25 → 04-18</td><td><b>Bike threshold build</b> (B6–B8)</td><td>Raise my bike threshold and how long I can hold it</td><td>Hold the swim at its block 4–5 dose; build my run toward a fast Copenhagen Marathon</td></tr>
 <tr><td>2027-04-19 → 06-13</td><td><b>Specific preparation</b> (B9–B10)</td><td>Race power held late in long rides, in the aero position, fuelled. Open water returns</td><td>Bike-to-run; Copenhagen Marathon and a half-distance B-race</td></tr>
 <tr><td>2027-06-14 → 09-05</td><td><b>Race specific and taper</b> (B11–B13)</td><td>Race simulation, then arrive fresh</td><td>Nothing new</td></tr>
 </tbody></table></div>
@@ -99,9 +99,9 @@ My average hours per week, as my watch records them. For swimming that is about 
 <tr><td><b>B3 ▶</b></td><td>11-02 → 11-29</td><td><b>Swim pace over distance. Bike threshold in. First brick</b></td><td>2.2–2.5</td><td>5.5–6.0</td><td>3.5–4.0</td><td>1.5</td><td><b>12.7–14.0</b></td></tr>
 <tr><td>B4</td><td>11-30 → 12-27</td><td>Swim volume peak</td><td>2.5–2.9</td><td>5.5–6.0</td><td>3.5</td><td>1.5</td><td>13.0–13.9</td></tr>
 <tr><td>B5</td><td>12-28 → 01-24</td><td>Consolidate swim. Bike threshold held</td><td>2.5–2.9</td><td>5.5–6.0</td><td>3.5</td><td>1.5</td><td>13.0–13.9</td></tr>
-<tr><td>B6</td><td>01-25 → 02-21</td><td>Bike threshold, first dedicated block</td><td>2.2</td><td>5.5–6.0</td><td>3.5–4.0</td><td>1.5</td><td>12.7–13.7</td></tr>
-<tr><td>B7</td><td>02-22 → 03-21</td><td>Bike threshold, longer efforts</td><td>2.2</td><td>6.0–6.5</td><td>3.5–4.0</td><td>1.5</td><td>13.2–14.2</td></tr>
-<tr><td>B8</td><td>03-22 → 04-18</td><td>Bike threshold consolidation</td><td>2.2</td><td>6.0–6.5</td><td>4.0</td><td>1.5</td><td>13.7–14.2</td></tr>
+<tr><td>B6</td><td>01-25 → 02-21</td><td>Bike threshold, first dedicated block</td><td>2.5–2.9</td><td>5.5–6.0</td><td>3.5–4.0</td><td>1.5</td><td>13.0–14.4</td></tr>
+<tr><td>B7</td><td>02-22 → 03-21</td><td>Bike threshold, longer efforts</td><td>2.5–2.9</td><td>6.0–6.5</td><td>3.5–4.0</td><td>1.5</td><td>13.5–14.9</td></tr>
+<tr><td>B8</td><td>03-22 → 04-18</td><td>Bike threshold consolidation</td><td>2.5–2.9</td><td>6.0–6.5</td><td>4.0</td><td>1.5</td><td>14.0–14.9</td></tr>
 <tr><td>B9</td><td>04-19 → 05-16</td><td>Race power late in rides. Open water back</td><td>1.8–2.2</td><td>6.0–6.5</td><td>4.0</td><td>1.5</td><td>13.3–14.2</td></tr>
 <tr><td>B10</td><td>05-17 → 06-13</td><td>Race-specific volume. B-race</td><td>1.8–2.2</td><td>6.5–7.0</td><td>4.0–4.5</td><td>1.5</td><td>13.8–15.2</td></tr>
 <tr><td>B11</td><td>06-14 → 07-11</td><td>Long continuous race-pace riding</td><td>1.8–2.2</td><td>6.5–7.5</td><td>4.0–4.5</td><td>1.0</td><td>13.3–15.2</td></tr>
@@ -109,7 +109,7 @@ My average hours per week, as my watch records them. For swimming that is about 
 <tr><td>B13</td><td>08-09 → 09-05</td><td>Taper. Week 1 hard, then down</td><td>1.1–1.8</td><td>2.5–6.0</td><td>1.5–4.0</td><td>0–0.75</td><td>5.6–12.3</td></tr>
 </tbody></table></div>
 
-From block 9, open-water swims count in full, since the watch records nearly all of that time. My summer holiday (about 10 days, probably early July) is not fixed yet; when it is, blocks 11 and 12 change length so that the holiday falls in a recovery week.
+I book 4 hours of pool time a week from block 4 to block 8. To fit more bike around it, I will try easy morning rides on swim days, never hard ones; block 4 tests one. From block 9, open-water swims count in full, since the watch records nearly all of that time. My summer holiday (about 10 days, probably early July) is not fixed yet; when it is, blocks 11 and 12 change length so that the holiday falls in a recovery week.
 
 **Long rides:** 3:30 in block 3, with one 4:00 ride in each of blocks 4 and 5. Then 3:30–4:30 in blocks 6–8, 4:30–5:30 with race power late in blocks 9–10, and 5:30–6:00 in blocks 11–12, with one ride at race duration in block 12.
 
@@ -132,9 +132,9 @@ From block 9, open-water swims count in full, since the watch records nearly all
 <div class="tp-wrap"><table>
 <thead><tr><th>When</th><th>What I check</th></tr></thead>
 <tbody>
-<tr><td>By 8 November</td><td>After the 3.8 km pool swim on 5 November: re-cut my five leg targets so they add up to 9:50 or less</td></tr>
-<tr><td>End of January</td><td>Is each sport on the track the re-cut sets? A sport that is behind changes how it trains, not how much. For the run, a 5 km on the track in block 5, week 3: slower than 19:32, and I add run intensity in blocks 6–8. Slower than 19:56, my running is falling, and run hours come back</td></tr>
-<tr><td>21 February</td><td>Last day to decide on a tri bike. After that, my current bike is my Fionia bike</td></tr>
+<tr><td>7 November ✓</td><td>After the 3.8 km pool swim on 5 November, I re-cut my five leg targets: swim 1:15, T1 4:00, bike 5:14, T2 2:00, run 3:15. They add up to 9:50</td></tr>
+<tr><td>End of January</td><td>Is each sport on the track the re-cut sets? The swim is on track at 1:17:07 or faster in the block 5 pool swim. The bike is on track at 246 W or more in the block 5 threshold test. A sport that is behind changes how it trains, not how much. If I am behind 9:50, I add no extra intensity before the mid-June checkpoint. For the run, a 5 km on the track in block 5, week 3: slower than 19:32, and I add run intensity in blocks 6–8. Slower than 19:56, my running is falling, and run hours come back</td></tr>
+<tr><td>21 February</td><td>Last day to decide on a tri bike. After that, my current bike is my Fionia bike. My 5:14 needs an aero drag (CdA) of 0.28 m² or lower, measured on the bike I will race. If it is higher, my bike target goes back to about 5:22 and I re-cut the plan</td></tr>
 <tr><td>Late March</td><td>Is my running back at its spring level? Block 8, week 1: 3 × 4 km at about 303 W on the route I used in March 2026. It passes if my heart rate stays at 161 or under and the effort feels 6 out of 10 or easier. If it fails, Copenhagen becomes a fuelling rehearsal</td></tr>
 <tr><td>9 May</td><td>Copenhagen Marathon in 2:57 or faster. If I am slower, my 3:15 run target does not change on race day. Block 10 then gets two run sessions to check my speed, and the mid-June checkpoint decides the run target</td></tr>
 <tr><td>Mid-June</td><td>If my race adds up to 9:50 or less, everything stays. Between 9:50 and 10:00, I keep sub-10 with a smaller margin. Over 10:00, I change the goal. After a slow Copenhagen or a failed March check, this is also where I decide my run target</td></tr>
@@ -152,7 +152,7 @@ From block 9, open-water swims count in full, since the watch records nearly all
 <tr><td>B2, Sun 2026-10-25 ✓</td><td>Run</td><td>Run durability benchmark: 4:36 and 4:35/km before and after a 2-hour run. My first baseline</td></tr>
 <tr><td>B2, Tue 2026-10-27</td><td>Swim</td><td>CSS retest: not swum, because the squad session left no room</td></tr>
 <tr><td>B2, Fri 2026-10-30 ✓</td><td>Run</td><td>5 km on the 400 m track: 19:44.0 at 304 W</td></tr>
-<tr><td><b>B3, Thu 2026-11-05</b></td><td>Swim</td><td>3.8 km continuous in the 50 m pool, in my wetsuit, counted by laps. Repeated in B5 and B8</td></tr>
+<tr><td><b>B3, Thu 2026-11-05 ✓</b></td><td>Swim</td><td>3.8 km continuous in the 50 m pool, in my wetsuit: <b>1:23:07</b>, 2:11/100 m. Repeated in B5 and B8</td></tr>
 <tr><td><b>B3, Sun 2026-11-08</b></td><td>Run</td><td>5 km at marathon pace, 4:09–4:15/km, inside a 2:30 long run</td></tr>
 <tr><td><b>B3, Sat 2026-11-14</b></td><td>Swim</td><td>Continuous 2,400 m, paced evenly: the main test of block 3</td></tr>
 <tr><td><b>B3, Sun 2026-11-15</b></td><td>Bike + run</td><td>Bike-to-run benchmark: 2:30 bike at race power, then 45 min run at 4:37/km</td></tr>
@@ -162,9 +162,11 @@ From block 9, open-water swims count in full, since the watch records nearly all
 <tr><td>B4–B6, first calm weekend day</td><td>Bike</td><td>Aero field test on my current bike. Before the tri-bike decision on 2027-02-21</td></tr>
 <tr><td>B4, Tue 2026-12-22</td><td>Swim</td><td>CSS test (then every 8 weeks: B6 Tue 2027-02-16, B8 Tue 2027-04-13). The October retest was not swum, so the first valid test sets the dates after it</td></tr>
 <tr><td>B4, B6, B8, week 4</td><td>Run</td><td>Run test slot</td></tr>
+<tr><td>B5, a Thursday</td><td>Swim</td><td>3.8 km continuous pool swim, repeated: 1:17:07 or faster is on track. One retry within 7–10 days</td></tr>
 <tr><td>B5, week 3</td><td>Run</td><td>5 km on the same track as in October. Slower than 19:32 means more run work in B6–B8</td></tr>
 <tr><td>B5, B7, B9</td><td>Bike</td><td>Threshold test (B9: week 2)</td></tr>
 <tr><td>B8, week 1</td><td>Run</td><td>3 × 4 km, the spring session repeated: is my running back at its spring level?</td></tr>
+<tr><td>B8, a Thursday before Boston</td><td>Swim</td><td>3.8 km continuous pool swim, repeated: about 1:11 is on track</td></tr>
 <tr><td>B8, week of 2027-04-05</td><td>Bike + run</td><td>Bike-to-run benchmark, repeated</td></tr>
 <tr><td>B9, 2027-05-09</td><td>Run</td><td>Copenhagen Marathon</td></tr>
 <tr><td>B10</td><td>Bike</td><td>Maximal threshold test</td></tr>
@@ -291,7 +293,7 @@ In this table my swim hours are booked pool time: one hour a swim, and two for t
 <thead><tr><th>Workout</th><th>Structure and targets</th></tr></thead>
 <tbody>
 <tr><td><b>1. Threshold ride</b><br>Wed 11-04, Wed 11-11, Sat 11-21</td><td>15 min warm-up at 129–176 W with 3 × 30 s at 244 W. Main set in ERG at 230 W: week 1 3 × 12 min with 4 min between; week 2 3 × 15 min with 5 min between; week 3 2 × 20 min with 5 min between. 117 W between reps. 10–11 min cool-down at 129–150 W. Cadence 85–95 rpm. If my cadence falls under 80 rpm and keeps falling, I stop the rep. Two sessions in a row with a stopped rep, and the target comes down.</td></tr>
-<tr><td><b>2. 3.8 km pool swim</b><br>Thu 11-05</td><td>50 m pool, wetsuit, 76 lengths, counted by laps on the watch. 400 m easy and 4 × 50 m build first. Start at 2:14/100 m, and no faster than 2:10/100 m for the first 400 m. Even pace, no stops at the wall. I read the pace clock every 200 m. No predicted time: the swim shows where I stand, and the re-cut of my leg targets reads it. If the squad leaves no room, I swim it on Sat 11-07 in the 25 m pool.</td></tr>
+<tr><td><b>2. 3.8 km pool swim</b><br>Thu 11-05</td><td>50 m pool, wetsuit, 76 lengths, counted by laps on the watch. 400 m easy and 4 × 50 m build first. Start at 2:14/100 m, and no faster than 2:10/100 m for the first 400 m. Even pace, no stops at the wall. I read the pace clock every 200 m. No predicted time: the swim shows where I stand, and the re-cut of my leg targets reads it. If the squad leaves no room, I swim it on Sat 11-07 in the 25 m pool. <b>Result: 1:23:07</b>, 2:11/100 m.</td></tr>
 <tr><td><b>3. Long run with marathon pace</b><br>Sun 11-08</td><td>2:30 in all. 40 min at 227–245 W, then 5 km at 4:09–4:15/km, then easy at 227–245 W to 2:30. The pace is fixed; power and heart rate are the result. Flat route. 90 g/h, a dose every 15 minutes.</td></tr>
 <tr><td><b>4. Bike-to-run benchmark</b><br>Sun 11-15</td><td>Bike 2:30: 15 min rising at 150–180 W, then 2:15 at race power, 196–201 W. Outdoors if the roads are dry and the wind allows, otherwise indoors in ERG. Then the transition as I will race it, timed. Then a 45 min run at 4:37/km on a flat route from home; the first 10 minutes don't count, and the last 35 are read. The run is never raced. 90 g/h on the bike and the run. The same session comes back in block 8 and, in full, in block 12.</td></tr>
 <tr><td><b>4b. Run comparison</b><br>Sun 11-22</td><td>15 min easy under 239 W, then the brick's 45 min at 4:37/km on the same route and in the same kit, with no bike before it, then 10 min easy. The difference from the brick is what the bike costs my run. If the weekend takes it, Tue 11-24 in the morning.</td></tr>
@@ -309,9 +311,9 @@ As my season plan describes them today. I plan each block in detail in the four 
 <div class="tp-wrap"><table>
 <thead><tr><th>Block</th><th>Dates</th><th>Main aim</th><th>Second aim</th><th>Key test</th></tr></thead>
 <tbody>
-<tr><td>B4</td><td>2026-11-30 → 12-27</td><td>Swim volume peak</td><td>Bike base</td><td>Run durability benchmark; CSS test Tue 12-22; run test slot. Christmas week is the recovery week</td></tr>
+<tr><td>B4</td><td>2026-11-30 → 12-27</td><td>Swim volume peak</td><td>Bike base; one easy morning ride on a swim day, as a test</td><td>Run durability benchmark; CSS test Tue 12-22; run test slot. Christmas week is the recovery week</td></tr>
 <tr><td>B5</td><td>2026-12-28 → 2027-01-24</td><td>Consolidate the swim</td><td>Bike threshold continues</td><td>3.8 km pool swim; bike endurance benchmark; bike threshold test; 5 km on the track (week 3)</td></tr>
-<tr><td>B6</td><td>2027-01-25 → 02-21</td><td>Bike threshold, first dedicated block</td><td>Hold the swim; my run starts building toward Copenhagen</td><td>Run durability benchmark; CSS test Tue 02-16; run test slot. Tri bike decision by 02-21</td></tr>
+<tr><td>B6</td><td>2027-01-25 → 02-21</td><td>Bike threshold, first dedicated block</td><td>Swim held at 4 hours booked; my run starts building toward Copenhagen</td><td>Run durability benchmark; CSS test Tue 02-16; run test slot. Tri bike decision by 02-21</td></tr>
 <tr><td>B7</td><td>2027-02-22 → 03-21</td><td>Bike threshold, held longer</td><td>Structured running returns</td><td>Bike endurance benchmark; bike threshold test</td></tr>
 <tr><td>B8</td><td>2027-03-22 → 04-18</td><td>Bike threshold consolidation</td><td>Longer long rides</td><td>3 × 4 km spring run check (week 1); CSS test Tue 04-13; 3.8 km pool swim; bike-to-run benchmark (week of 04-05); run test slot</td></tr>
 <tr><td>B9</td><td>2027-04-19 → 05-16</td><td>Race power held late, in the aero position, fuelled</td><td>Open water returns; transitions trained on a fixed course</td><td>Boston (easy) 04-19; bike threshold test (week 2); Copenhagen Marathon 05-09</td></tr>
